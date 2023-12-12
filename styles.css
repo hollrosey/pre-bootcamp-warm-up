@@ -5,7 +5,7 @@ body {
 }
 
 .content {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 div.search-section {
@@ -91,3 +91,8 @@ p {
     margin-left: 0;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+    overflow: visible;
+}
