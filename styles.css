@@ -29,3 +29,15 @@ div.search-tabs a:active {
     border-bottom: 2px solid #000000;
     color: #000000;
 }
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
