@@ -1,3 +1,8 @@
+body {
+    font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
+}
+
+
 div.search-tabs {
     overflow: auto;
     white-space: nowrap;
