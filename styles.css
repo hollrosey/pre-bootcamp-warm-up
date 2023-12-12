@@ -48,10 +48,11 @@ div.search-tabs a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-between;
 }
 
 .location {
-    margin: 70px;
+    margin: 20px;
 }
 
 img {
@@ -68,9 +69,18 @@ img {
 
 .price {
     text-decoration: underline;
+    color: #222222;
+    font-size: 15px;
+}
+
+.title {
+    color: #222222;
+    font-size: 19px;
+    font-weight: 450;
 }
 
 .grey {
     color: #717171;
 }
+
 
