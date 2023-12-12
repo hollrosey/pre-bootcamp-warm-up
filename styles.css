@@ -1,7 +1,4 @@
 body {
-<<<<<<< HEAD
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
-=======
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     overflow-x: hidden;
     margin: auto;
@@ -18,7 +15,6 @@ div.search-section {
     top: 0;
     left: 0;
     background-color: white;
->>>>>>> image-carousel
 }
 
 div.search-tabs {
