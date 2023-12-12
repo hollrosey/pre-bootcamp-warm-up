@@ -2,11 +2,12 @@ body {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
 }
 
-
 div.search-tabs {
     overflow: auto;
     white-space: nowrap;
     background-color: ;
+    color: #717171;
+    font-size: 12px;
     
 }
 
@@ -16,11 +17,17 @@ div.search-tabs a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    color: #717171;
 }
 
 div.search-tabs a:hover {
     background-color: ;
+    border-bottom: 2px solid #717171;
 }
 
+div.search-tabs a:active {
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
 
 
