@@ -41,3 +41,7 @@ img {
 ::-webkit-scrollbar {
     display: none;
 }
+
+.price {
+    text-decoration: underline;
+}
