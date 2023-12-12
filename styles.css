@@ -1,5 +1,24 @@
 body {
+<<<<<<< HEAD
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
+=======
+    font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.content {
+    margin-top: 90px;
+}
+
+div.search-section {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+>>>>>>> image-carousel
 }
 
 div.search-tabs {
@@ -29,4 +48,60 @@ div.search-tabs a:active {
     color: #000000;
 }
 
+<<<<<<< HEAD
 
+=======
+.filter {
+
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+.location {
+    margin: 20px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.price {
+    text-decoration: underline;
+    color: #222222;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.title {
+    color: #222222;
+    font-size: 19px;
+    font-weight: 450;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.grey {
+    color: #717171;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    overflow: visible;
+}
+>>>>>>> image-carousel
