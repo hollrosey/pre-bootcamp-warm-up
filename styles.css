@@ -71,16 +71,23 @@ img {
     text-decoration: underline;
     color: #222222;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .title {
     color: #222222;
     font-size: 19px;
     font-weight: 450;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 
 .grey {
     color: #717171;
 }
 
+p {
+    margin: 5px;
+    margin-left: 0;
+}
 
