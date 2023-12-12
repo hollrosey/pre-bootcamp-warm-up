@@ -1,5 +1,6 @@
 body {
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
+    font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
 }
 
 div.search-tabs {
@@ -28,5 +29,3 @@ div.search-tabs a:active {
     border-bottom: 2px solid #000000;
     color: #000000;
 }
-
-
