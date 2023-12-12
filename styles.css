@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
+.content {
+    margin-top: 60px;
+}
+
 div.search-section {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
@@ -38,6 +42,16 @@ div.search-tabs a:hover {
 div.search-tabs a:active {
     border-bottom: 2px solid #000000;
     color: #000000;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    margin: 70px;
 }
 
 img {
