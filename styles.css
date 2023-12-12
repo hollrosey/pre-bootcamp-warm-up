@@ -1,0 +1,20 @@
+div.search-tabs {
+    overflow: auto;
+    white-space: nowrap;
+    background-color: ;
+}
+
+div.search-tabs a {
+    display: inline-block;
+    color: ;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.search-tabs a:hover {
+    background-color: ;
+}
+
+
+
