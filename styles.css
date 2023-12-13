@@ -41,10 +41,6 @@ div.search-tabs a:active {
     color: #000000;
 }
 
-.filter {
-
-}
-
 .destinations {
     display: flex;
     flex-direction: column;
