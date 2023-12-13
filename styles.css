@@ -1,3 +1,7 @@
+html {
+    
+}
+
 body {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     overflow-x: hidden;
@@ -70,6 +74,7 @@ img {
 ::-webkit-scrollbar {
     display: none;
 }
+
 
 .price {
     text-decoration: underline;
