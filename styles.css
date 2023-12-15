@@ -7,6 +7,14 @@ body {
 .content {
     margin-top: 90px;
 }
+ul{
+    list-style: none;
+    display: inline;
+}
+
+li {
+    float: left;
+}
 
 div.search-section {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
@@ -137,3 +145,4 @@ div.inspiration a:active {
     font-size: 22px;
     margin: 0px 0px 8px,
 }
+
