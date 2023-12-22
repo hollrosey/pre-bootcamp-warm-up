@@ -9,20 +9,34 @@ body {
 }
 
 .main-search-button {
+    padding: 0 4px;
+    margin: 30px;
     background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    border-radius: 30px;
 }
 
-.main-search-button:hover {
-    cursor: pointer;
+
+.searching-button {
+    text-align: left;
+    border: 2px solid transparent;
 }
 
 .show-filters {
     background-color: #FFFFFF;
-}
-
-.show-filters:hover {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #B0B0B0;
     cursor: pointer;
 }
+
+.show-filters svg {
+    margin: auto; 
+}
+
 
 ul{
     list-style: none;
