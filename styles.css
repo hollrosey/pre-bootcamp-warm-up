@@ -7,6 +7,23 @@ body {
 .content {
     margin-top: 90px;
 }
+
+.main-search-button {
+    background-color: #FFFFFF;
+}
+
+.main-search-button:hover {
+    cursor: pointer;
+}
+
+.show-filters {
+    background-color: #FFFFFF;
+}
+
+.show-filters:hover {
+    cursor: pointer;
+}
+
 ul{
     list-style: none;
     display: inline;
