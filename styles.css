@@ -180,3 +180,17 @@ div.inspiration a:active {
     margin: 0px 0px 8px,
 }
 
+.continue {
+    text-align: center;
+    margin: 56px 0px 0px;
+    font-size: 18px;
+}
+
+.show-more {
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 14px 24px;
+    font: inherit;
+    border: none;
+    border-radius: 10px;
+}
