@@ -139,6 +139,7 @@ img {
 .inspiration {
     background-color: #f7f7f7;
     padding: 20px;
+    
 }
 
 footer {
@@ -193,4 +194,5 @@ div.inspiration a:active {
     font: inherit;
     border: none;
     border-radius: 10px;
+    margin-bottom: 35px;
 }
