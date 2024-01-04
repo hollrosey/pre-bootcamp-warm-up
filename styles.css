@@ -195,6 +195,7 @@ div.inspiration a:active {
     border: none;
     border-radius: 10px;
     margin-bottom: 35px;
+    cursor: pointer;
 }
 
 .bottom-navbar {
@@ -241,4 +242,9 @@ div.inspiration a:active {
 
 footer {
     display: inline;
+}
+
+.footer-icon {
+    color: #222222;
+    font-size: 14px;
 }
