@@ -13,7 +13,7 @@ body {
     margin: 30px;
     background-color: #FFFFFF;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
     border-radius: 30px;
     max-width: 644px;
@@ -37,11 +37,11 @@ body {
 }
 
 .show-filters svg {
-    margin: auto; 
+    margin: auto;
 }
 
 
-ul{
+ul {
     list-style: none;
     display: inline;
 }
@@ -139,7 +139,7 @@ img {
 .inspiration {
     background-color: #f7f7f7;
     padding: 20px;
-    
+
 }
 
 footer {
@@ -228,3 +228,17 @@ div.inspiration a:active {
     color: #E81948;
 }
 
+.popular li {
+    float: left;
+    width: 50%;
+}
+
+.popular {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    display: inline;
+}

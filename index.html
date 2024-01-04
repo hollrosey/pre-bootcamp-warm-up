@@ -1,534 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airbnb homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb homepage</title>
 </head>
+
 <body>
-  
+
   <div class="bottom-navbar">
-    <a href="#explore"><img class="icon" src=""><p>Explore</p></a>
-    <a href="#wishlists"><img class="icon" src=""><p>Wishlists</p></a>
-    <a href="#log-in"><img class="icon" src=""><p>Log in</p></a>
+    <a href="#explore"><img class="icon" src="">
+      <p>Explore</p>
+    </a>
+    <a href="#wishlists"><img class="icon" src="">
+      <p>Wishlists</p>
+    </a>
+    <a href="#log-in"><img class="icon" src="">
+      <p>Log in</p>
+    </a>
   </div>
 
-    <div class="search-section">
-        <div class="search-bar">
-            <button type="button" class="main-search-button"><span class="searching-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;"><path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path></svg><span class="anywhere-button"><div class="search-anywhere">Anywhere</div><div class="search-bottom-row"><span class="any-week grey">Any week</span><span class="grey">•</span><span class="add-guests grey">Add guests</span></span></span></div></button>
-            <button type="button" class="show-filters"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;"><path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path></svg></span></button>
-        </div>
+  <div class="search-section">
+    <div class="search-bar">
+      <button type="button" class="main-search-button"><span class="searching-button"><svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="presentation" focusable="false"
+            style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+            <path
+              d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
+            </path>
+          </svg><span class="anywhere-button">
+            <div class="search-anywhere">Anywhere</div>
+            <div class="search-bottom-row"><span class="any-week grey">Any week</span><span class="grey">•</span><span
+                class="add-guests grey">Add guests</span>
+          </span></span>
+    </div></button>
+    <button type="button" class="show-filters"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+          role="presentation" focusable="false"
+          style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+          <path fill="none"
+            d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3">
+          </path>
+        </svg></span></button>
+  </div>
 
-        <div class="search-tabs">
-              <a href="#caves"><img class="icon" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg" alt="Cave icon"><p>Caves</p></a>
-              <a href="#treehouses"><img class="icon" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt="Treehouse with ladder icon"><p>Treehouses</p></a>
-              <a href="#omg"><img class="icon" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="UFO icon"><p>OMG!</p></a>
-              <a href="#towers"><img class="icon" src="https://a0.muscache.com/pictures/d721318f-4752-417d-b4fa-77da3cbc3269.jpg" alt="Tower icon"><p>Towers</p></a>
-              <a href="#surfing"><img class="icon" src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg" alt="Surfboard icon"><p>Surfing</p></a>
-              <a href="#riads"><img class="icon" src="https://a0.muscache.com/pictures/7ff6e4a1-51b4-4671-bc9a-6f523f196c61.jpg" alt="Riad icon"><p>Riads</p></a>
-              <a href="#boats"><img class="icon" src="https://a0.muscache.com/pictures/687a8682-68b3-4f21-8d71-3c3aef6c1110.jpg" alt="Boat on water icon"><p>Boats</p></a>
-              <a href="#containers"><img class="icon" src="https://a0.muscache.com/pictures/0ff9740e-52a2-4cd5-ae5a-94e1bfb560d6.jpg" alt="Shipping container icon"><p>Containers</p></a>
-              <a href="#barns"><img class="icon" src="https://a0.muscache.com/pictures/f60700bc-8ab5-424c-912b-6ef17abc479a.jpg" alt="Barn icon"><p>Barns</p></a>
-              <a href="#mansions"><img class="icon" src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" alt="Mansion with two chimneys icon"><p>Mansions</p></a>
-              <a href="#beachfront"><img class="icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="Hut on beach with palm tree icon"><p>Beachfront</p></a>
-              <a href="#trending"><img class="icon" src="https://a0.muscache.com/pictures/3726d94b-534a-42b8-bca0-a0304d912260.jpg" alt="Flame icon"><p>Trending</p></a>
-              <a href="#countryside"><img class="icon" src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" alt="Hills with tree and house icon"><p>Countryside</p></a>
-              <a href="#cabins"><img class="icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="Log cabin icon"><p>Cabins</p></a>
-              <a href="#play"><img class="icon" src="https://a0.muscache.com/pictures/f0c5ca0f-5aa0-4fe5-b38d-654264bacddf.jpg" alt="Bowling ball and pin icon"><p>Play</p></a>
-              <a href="#amazing-views"><img class="icon" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="Sea view window icon"><p>Amazing views</p></a>
-              <a href="#historical-homes"><img class="icon" src="https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg" alt="Castle style house icon"><p>Historical homes</p></a>
-              <a href="#off-the-grid"><img class="icon" src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg" alt="Four diamonds with one seperate icon"><p>Off-the-grid</p></a>
-              <a href="#a-frames"><img class="icon" src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="A-frame icon"><p>A-frames</p></a>
-              <a href="#rooms"><img class="icon" src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="Bed with nightstand icon"><p>Rooms</p></a>
-              <a href="#iconic-cities"><img class="icon" src="https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg" alt="Leaning Tower of Pisa icon"><p>Iconic cities</p></a>
-              <a href="#tropical"><img class="icon" src="https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg" alt="Palm tree and sunset icon"><p>Tropical</p></a>
-              <a href="#castles"><img class="icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="Castle with flag icon"><p>Castles</p></a>
-              <a href="#vineyards"><img class="icon" src="https://a0.muscache.com/pictures/60ff02ae-d4a2-4d18-a120-0dd274a95925.jpg" alt="Grapes icon"><p>Vineyards</p></a>
-              <a href="#lake"><img class="icon" src="https://a0.muscache.com/pictures/a4634ca6-1407-4864-ab97-6e141967d782.jpg" alt="Lake icon"><p>Lake</p></a>
-              <a href="#bed-and-breakfasts"><img class="icon" src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg" alt="Mug of tea icon"><p>Bed & breakfasts</p></a>
-              <a href="#design"><img class="icon" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg" alt="House with slanted roof icon"><p>Design</p></a>
-              <a href="#new"><img class="icon" src="https://a0.muscache.com/pictures/c0fa9598-4e37-40f3-b734-4bd0e2377add.jpg" alt="Key icon"><p>New</p></a>
-              <a href="#lakefront"><img class="icon" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="House and tree by lake icon"><p>Lakefront</p></a>
-              <a href="#national-parks"><img class="icon" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg" alt="Mountain, tree and path icon"><p>National parks</p></a>
-              <a href="#arctic"><img class="icon" src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg" alt="Snowflake icon"><p>Arctic</p></a>
-              <a href="#amazing-pools"><img class="icon" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Pool with ladder icon"><p>Amazing pools</p></a>
-              <a href="#camper-vans"><img class="icon" src="https://a0.muscache.com/pictures/31c1d523-cc46-45b3-957a-da76c30c85f9.jpg" alt="Campervan icon"><p>Camper vans</p></a>
-              <a href="#islands"><img class="icon" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" alt="Island with palm tree icon"><p>Islands</p></a>
-              <a href="#tiny-homes"><img class="icon" src="https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg" alt="Tiny home slanted roof icon"><p>Tiny homes</p></a>
-              <a href="#camping"><img class="icon" src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg" alt="Tent and tree icon"><p>Camping</p></a>
-              <a href="#golfing"><img class="icon" src="https://a0.muscache.com/pictures/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg" alt="Golf ball and tee icon"><p>Golfing</p></a>
-              <a href="#farms"><img class="icon" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="Barn and silo icon"><p>Farms</p></a>
-              <a href="#yurts"><img class="icon" src="https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg" alt="Yurt icon"><p>Yurts</p></a>
-              <a href="#shepherds-huts"><img class="icon" src="https://a0.muscache.com/pictures/747b326c-cb8f-41cf-a7f9-809ab646e10c.jpg" alt="Shepherd's hut icon"><p>Shepherd's huts</p></a>
-              <a href="#earth-homes"><img class="icon" src="https://a0.muscache.com/pictures/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg" alt="Door in hillside icon"><p>Earth homes</p></a>
-              <a href="#skiing"><img class="icon" src="https://a0.muscache.com/pictures/c8bba3ed-34c0-464a-8e6e-27574d20e4d2.jpg" alt="Skiis icon"><p>Skiing</p></a>
-              <a href="#chefs-kitchens"><img class="icon" src="https://a0.muscache.com/pictures/ddd13204-a5ae-4532-898c-2e595b1bb15f.jpg" alt="Chef's hat icon"><p>Chef's kitchens</p></a>
-              <a href="#hanoks"><img class="icon" src="https://a0.muscache.com/pictures/51f5cf64-5821-400c-8033-8a10c7787d69.jpg" alt="Hanok icon"><p>Hanoks</p></a>
-              <a href="#luxe"><img class="icon" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" alt="Cloche and hand icon"><p>Luxe</p></a>
-              <a href="#cycladic-homes"><img class="icon" src="https://a0.muscache.com/pictures/e4b12c1b-409b-4cb6-a674-7c1284449f6e.jpg" alt="Cycladic home icon"><p>Cycladic homes</p></a>
-              <a href="#top-of-the-world"><img class="icon" src="https://a0.muscache.com/pictures/248f85bf-e35e-4dc3-a9a1-e1dbff9a3db4.jpg" alt="Mountain with flag icon"><p>Top of the world</p></a>
-              <a href="#domes"><img class="icon" src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" alt="Dome icon"><p>Domes</p></a>
-              <a href="#ryokans"><img class="icon" src="https://a0.muscache.com/pictures/827c5623-d182-474a-823c-db3894490896.jpg" alt="Ryokan icon"><p>Ryokans</p></a>
-              <a href="#minsus"><img class="icon" src="https://a0.muscache.com/pictures/48b55f09-f51c-4ff5-b2c6-7f6bd4d1e049.jpg" alt="Minsus icon"><p>Minsus</p></a>
-              <a href="#casas-particulares"><img class="icon" src="https://a0.muscache.com/pictures/251c0635-cc91-4ef7-bb13-1084d5229446.jpg" alt="Casas Particulares icon"><p>Casas particulares</p></a>
-              <a href="#houseboats"><img class="icon" src="https://a0.muscache.com/pictures/c027ff1a-b89c-4331-ae04-f8dee1cdc287.jpg" alt="Houseboat icon"><p>Houseboats</p></a>
-              <a href="#adapted"><img class="icon" src="https://a0.muscache.com/pictures/e22b0816-f0f3-42a0-a5db-e0f1fa93292b.jpg" alt="Person in wheelchair icon"><p>Adapted</p></a>
-              <a href="#windmills"><img class="icon" src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg" alt="Windmill icon"><p>Windmills</p></a>
-              <a href="#grand-pianos"><img class="icon" src="https://a0.muscache.com/pictures/8eccb972-4bd6-43c5-ac83-27822c0d3dcd.jpg" alt="Grand piano icon"><p>Grand pianos</p></a>
-              <a href="#creative-spaces"><img class="icon" src="https://a0.muscache.com/pictures/8a43b8c6-7eb4-421c-b3a9-1bd9fcb26622.jpg" alt="Paint palette and brush icon"><p>Creative spaces</p></a>
-              <a href="#desert"><img class="icon" src="https://a0.muscache.com/pictures/a6dd2bae-5fd0-4b28-b123-206783b5de1d.jpg" alt="Cactus icon"><p>Desert</p></a>
-              <a href="#ski-in-out"><img class="icon" src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" alt="Person skiing icon"><p>Ski-in/out</p></a>
-              <a href="#dammusi"><img class="icon" src="https://a0.muscache.com/pictures/c9157d0a-98fe-4516-af81-44022118fbc7.jpg" alt="Dammusi icon"><p>Dammusi</p></a>
-              <a href="#trulli"><img class="icon" src="https://a0.muscache.com/pictures/33848f9e-8dd6-4777-b905-ed38342bacb9.jpg" alt="Trulli icon"><p>Trulli</p></a>
-              <a href="#beach"><img class="icon" src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" alt="Beach ball and umbrella icon"><p>Beach</p></a>
-        </div>
-    </div>
+  <div class="search-tabs">
+    <a href="#caves"><img class="icon" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg"
+        alt="Cave icon">
+      <p>Caves</p>
+    </a>
+    <a href="#treehouses"><img class="icon"
+        src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg"
+        alt="Treehouse with ladder icon">
+      <p>Treehouses</p>
+    </a>
+    <a href="#omg"><img class="icon" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+        alt="UFO icon">
+      <p>OMG!</p>
+    </a>
+    <a href="#towers"><img class="icon" src="https://a0.muscache.com/pictures/d721318f-4752-417d-b4fa-77da3cbc3269.jpg"
+        alt="Tower icon">
+      <p>Towers</p>
+    </a>
+    <a href="#surfing"><img class="icon" src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg"
+        alt="Surfboard icon">
+      <p>Surfing</p>
+    </a>
+    <a href="#riads"><img class="icon" src="https://a0.muscache.com/pictures/7ff6e4a1-51b4-4671-bc9a-6f523f196c61.jpg"
+        alt="Riad icon">
+      <p>Riads</p>
+    </a>
+    <a href="#boats"><img class="icon" src="https://a0.muscache.com/pictures/687a8682-68b3-4f21-8d71-3c3aef6c1110.jpg"
+        alt="Boat on water icon">
+      <p>Boats</p>
+    </a>
+    <a href="#containers"><img class="icon"
+        src="https://a0.muscache.com/pictures/0ff9740e-52a2-4cd5-ae5a-94e1bfb560d6.jpg" alt="Shipping container icon">
+      <p>Containers</p>
+    </a>
+    <a href="#barns"><img class="icon" src="https://a0.muscache.com/pictures/f60700bc-8ab5-424c-912b-6ef17abc479a.jpg"
+        alt="Barn icon">
+      <p>Barns</p>
+    </a>
+    <a href="#mansions"><img class="icon"
+        src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"
+        alt="Mansion with two chimneys icon">
+      <p>Mansions</p>
+    </a>
+    <a href="#beachfront"><img class="icon"
+        src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+        alt="Hut on beach with palm tree icon">
+      <p>Beachfront</p>
+    </a>
+    <a href="#trending"><img class="icon"
+        src="https://a0.muscache.com/pictures/3726d94b-534a-42b8-bca0-a0304d912260.jpg" alt="Flame icon">
+      <p>Trending</p>
+    </a>
+    <a href="#countryside"><img class="icon"
+        src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"
+        alt="Hills with tree and house icon">
+      <p>Countryside</p>
+    </a>
+    <a href="#cabins"><img class="icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+        alt="Log cabin icon">
+      <p>Cabins</p>
+    </a>
+    <a href="#play"><img class="icon" src="https://a0.muscache.com/pictures/f0c5ca0f-5aa0-4fe5-b38d-654264bacddf.jpg"
+        alt="Bowling ball and pin icon">
+      <p>Play</p>
+    </a>
+    <a href="#amazing-views"><img class="icon"
+        src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="Sea view window icon">
+      <p>Amazing views</p>
+    </a>
+    <a href="#historical-homes"><img class="icon"
+        src="https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg" alt="Castle style house icon">
+      <p>Historical homes</p>
+    </a>
+    <a href="#off-the-grid"><img class="icon"
+        src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg"
+        alt="Four diamonds with one seperate icon">
+      <p>Off-the-grid</p>
+    </a>
+    <a href="#a-frames"><img class="icon"
+        src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="A-frame icon">
+      <p>A-frames</p>
+    </a>
+    <a href="#rooms"><img class="icon" src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg"
+        alt="Bed with nightstand icon">
+      <p>Rooms</p>
+    </a>
+    <a href="#iconic-cities"><img class="icon"
+        src="https://a0.muscache.com/pictures/ed8b9e47-609b-44c2-9768-33e6a22eccb2.jpg"
+        alt="Leaning Tower of Pisa icon">
+      <p>Iconic cities</p>
+    </a>
+    <a href="#tropical"><img class="icon"
+        src="https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg" alt="Palm tree and sunset icon">
+      <p>Tropical</p>
+    </a>
+    <a href="#castles"><img class="icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"
+        alt="Castle with flag icon">
+      <p>Castles</p>
+    </a>
+    <a href="#vineyards"><img class="icon"
+        src="https://a0.muscache.com/pictures/60ff02ae-d4a2-4d18-a120-0dd274a95925.jpg" alt="Grapes icon">
+      <p>Vineyards</p>
+    </a>
+    <a href="#lake"><img class="icon" src="https://a0.muscache.com/pictures/a4634ca6-1407-4864-ab97-6e141967d782.jpg"
+        alt="Lake icon">
+      <p>Lake</p>
+    </a>
+    <a href="#bed-and-breakfasts"><img class="icon"
+        src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg" alt="Mug of tea icon">
+      <p>Bed & breakfasts</p>
+    </a>
+    <a href="#design"><img class="icon" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"
+        alt="House with slanted roof icon">
+      <p>Design</p>
+    </a>
+    <a href="#new"><img class="icon" src="https://a0.muscache.com/pictures/c0fa9598-4e37-40f3-b734-4bd0e2377add.jpg"
+        alt="Key icon">
+      <p>New</p>
+    </a>
+    <a href="#lakefront"><img class="icon"
+        src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+        alt="House and tree by lake icon">
+      <p>Lakefront</p>
+    </a>
+    <a href="#national-parks"><img class="icon"
+        src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"
+        alt="Mountain, tree and path icon">
+      <p>National parks</p>
+    </a>
+    <a href="#arctic"><img class="icon" src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg"
+        alt="Snowflake icon">
+      <p>Arctic</p>
+    </a>
+    <a href="#amazing-pools"><img class="icon"
+        src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Pool with ladder icon">
+      <p>Amazing pools</p>
+    </a>
+    <a href="#camper-vans"><img class="icon"
+        src="https://a0.muscache.com/pictures/31c1d523-cc46-45b3-957a-da76c30c85f9.jpg" alt="Campervan icon">
+      <p>Camper vans</p>
+    </a>
+    <a href="#islands"><img class="icon" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"
+        alt="Island with palm tree icon">
+      <p>Islands</p>
+    </a>
+    <a href="#tiny-homes"><img class="icon"
+        src="https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg"
+        alt="Tiny home slanted roof icon">
+      <p>Tiny homes</p>
+    </a>
+    <a href="#camping"><img class="icon" src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg"
+        alt="Tent and tree icon">
+      <p>Camping</p>
+    </a>
+    <a href="#golfing"><img class="icon" src="https://a0.muscache.com/pictures/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg"
+        alt="Golf ball and tee icon">
+      <p>Golfing</p>
+    </a>
+    <a href="#farms"><img class="icon" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+        alt="Barn and silo icon">
+      <p>Farms</p>
+    </a>
+    <a href="#yurts"><img class="icon" src="https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg"
+        alt="Yurt icon">
+      <p>Yurts</p>
+    </a>
+    <a href="#shepherds-huts"><img class="icon"
+        src="https://a0.muscache.com/pictures/747b326c-cb8f-41cf-a7f9-809ab646e10c.jpg" alt="Shepherd's hut icon">
+      <p>Shepherd's huts</p>
+    </a>
+    <a href="#earth-homes"><img class="icon"
+        src="https://a0.muscache.com/pictures/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg" alt="Door in hillside icon">
+      <p>Earth homes</p>
+    </a>
+    <a href="#skiing"><img class="icon" src="https://a0.muscache.com/pictures/c8bba3ed-34c0-464a-8e6e-27574d20e4d2.jpg"
+        alt="Skiis icon">
+      <p>Skiing</p>
+    </a>
+    <a href="#chefs-kitchens"><img class="icon"
+        src="https://a0.muscache.com/pictures/ddd13204-a5ae-4532-898c-2e595b1bb15f.jpg" alt="Chef's hat icon">
+      <p>Chef's kitchens</p>
+    </a>
+    <a href="#hanoks"><img class="icon" src="https://a0.muscache.com/pictures/51f5cf64-5821-400c-8033-8a10c7787d69.jpg"
+        alt="Hanok icon">
+      <p>Hanoks</p>
+    </a>
+    <a href="#luxe"><img class="icon" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg"
+        alt="Cloche and hand icon">
+      <p>Luxe</p>
+    </a>
+    <a href="#cycladic-homes"><img class="icon"
+        src="https://a0.muscache.com/pictures/e4b12c1b-409b-4cb6-a674-7c1284449f6e.jpg" alt="Cycladic home icon">
+      <p>Cycladic homes</p>
+    </a>
+    <a href="#top-of-the-world"><img class="icon"
+        src="https://a0.muscache.com/pictures/248f85bf-e35e-4dc3-a9a1-e1dbff9a3db4.jpg" alt="Mountain with flag icon">
+      <p>Top of the world</p>
+    </a>
+    <a href="#domes"><img class="icon" src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg"
+        alt="Dome icon">
+      <p>Domes</p>
+    </a>
+    <a href="#ryokans"><img class="icon" src="https://a0.muscache.com/pictures/827c5623-d182-474a-823c-db3894490896.jpg"
+        alt="Ryokan icon">
+      <p>Ryokans</p>
+    </a>
+    <a href="#minsus"><img class="icon" src="https://a0.muscache.com/pictures/48b55f09-f51c-4ff5-b2c6-7f6bd4d1e049.jpg"
+        alt="Minsus icon">
+      <p>Minsus</p>
+    </a>
+    <a href="#casas-particulares"><img class="icon"
+        src="https://a0.muscache.com/pictures/251c0635-cc91-4ef7-bb13-1084d5229446.jpg" alt="Casas Particulares icon">
+      <p>Casas particulares</p>
+    </a>
+    <a href="#houseboats"><img class="icon"
+        src="https://a0.muscache.com/pictures/c027ff1a-b89c-4331-ae04-f8dee1cdc287.jpg" alt="Houseboat icon">
+      <p>Houseboats</p>
+    </a>
+    <a href="#adapted"><img class="icon" src="https://a0.muscache.com/pictures/e22b0816-f0f3-42a0-a5db-e0f1fa93292b.jpg"
+        alt="Person in wheelchair icon">
+      <p>Adapted</p>
+    </a>
+    <a href="#windmills"><img class="icon"
+        src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg" alt="Windmill icon">
+      <p>Windmills</p>
+    </a>
+    <a href="#grand-pianos"><img class="icon"
+        src="https://a0.muscache.com/pictures/8eccb972-4bd6-43c5-ac83-27822c0d3dcd.jpg" alt="Grand piano icon">
+      <p>Grand pianos</p>
+    </a>
+    <a href="#creative-spaces"><img class="icon"
+        src="https://a0.muscache.com/pictures/8a43b8c6-7eb4-421c-b3a9-1bd9fcb26622.jpg"
+        alt="Paint palette and brush icon">
+      <p>Creative spaces</p>
+    </a>
+    <a href="#desert"><img class="icon" src="https://a0.muscache.com/pictures/a6dd2bae-5fd0-4b28-b123-206783b5de1d.jpg"
+        alt="Cactus icon">
+      <p>Desert</p>
+    </a>
+    <a href="#ski-in-out"><img class="icon"
+        src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" alt="Person skiing icon">
+      <p>Ski-in/out</p>
+    </a>
+    <a href="#dammusi"><img class="icon" src="https://a0.muscache.com/pictures/c9157d0a-98fe-4516-af81-44022118fbc7.jpg"
+        alt="Dammusi icon">
+      <p>Dammusi</p>
+    </a>
+    <a href="#trulli"><img class="icon" src="https://a0.muscache.com/pictures/33848f9e-8dd6-4777-b905-ed38342bacb9.jpg"
+        alt="Trulli icon">
+      <p>Trulli</p>
+    </a>
+    <a href="#beach"><img class="icon" src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
+        alt="Beach ball and umbrella icon">
+      <p>Beach</p>
+    </a>
+  </div>
+  </div>
 
-<div class="content">
+  <div class="content">
     <div class="destinations">
 
-        <div id="bed-and-breakfasts" class="location bed-and-breakfasts">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/e2f95ac6-db99-4887-8457-6c7b6a8a3b1a.jpg?im_w=1200" alt="A large white bed and breakfast with a vast green lawn.">
-                <h1 class="title">Hampshire, UK</h1>
-                <p class="grey">Hosted by Rosemary</p>
-                <p class="grey">16-21 Dec · Individual Host</p>
-                <p class="price"><strong>£550</strong> total</p>
-            </figure>
-        </div>
+      <div id="bed-and-breakfasts" class="location bed-and-breakfasts">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/e2f95ac6-db99-4887-8457-6c7b6a8a3b1a.jpg?im_w=1200"
+            alt="A large white bed and breakfast with a vast green lawn.">
+          <h1 class="title">Hampshire, UK</h1>
+          <p class="grey">Hosted by Rosemary</p>
+          <p class="grey">16-21 Dec · Individual Host</p>
+          <p class="price"><strong>£550</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="amazing-views" class="location amazing-views">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/e487cf39-f55d-4e6e-b422-b041a08e7bcb.jpg?im_w=720" alt="A small cabin with a cosy bed and a spherical window with a beautiful view.">
-                <h1 class="title">Medstead, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">21-26 Jan</p>
-                <p class="price"><strong>£1,051</strong> total</p>
-            </figure>
-        </div>
+      <div id="amazing-views" class="location amazing-views">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/e487cf39-f55d-4e6e-b422-b041a08e7bcb.jpg?im_w=720"
+            alt="A small cabin with a cosy bed and a spherical window with a beautiful view.">
+          <h1 class="title">Medstead, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">21-26 Jan</p>
+          <p class="price"><strong>£1,051</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="castles" class="location castles">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/e95abf4c-6463-41fd-a06e-08c449473d5c.jpg?im_w=720" alt="A grand castle on a well manicured lawn.">
-                <h1 class="title">Yvetot-Bocage, France</h1>
-                <p class="grey">Built in the 16th century</p>
-                <p class="grey">1-6 Jan · Professional Host</p>
-                <p class="price"><strong>£6,074</strong> total</p>
-            </figure>
-        </div>
+      <div id="castles" class="location castles">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/e95abf4c-6463-41fd-a06e-08c449473d5c.jpg?im_w=720"
+            alt="A grand castle on a well manicured lawn.">
+          <h1 class="title">Yvetot-Bocage, France</h1>
+          <p class="grey">Built in the 16th century</p>
+          <p class="grey">1-6 Jan · Professional Host</p>
+          <p class="price"><strong>£6,074</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="islands" class="location islands">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/d9f4ff71-ae26-45bd-a1d9-8931b6d03119.jpg?im_w=720" alt="Blue waters surrounding a lush green island with a singular building in the center.">
-                <h1 class="title">Hardwick, UK</h1>
-                <p class="grey">1.6 acres</p>
-                <p class="grey">9-15 Sept · Professional Host</p>
-                <p class="price"><strong>£10,291</strong> total</p>
-            </figure>
-        </div>
+      <div id="islands" class="location islands">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/d9f4ff71-ae26-45bd-a1d9-8931b6d03119.jpg?im_w=720"
+            alt="Blue waters surrounding a lush green island with a singular building in the center.">
+          <h1 class="title">Hardwick, UK</h1>
+          <p class="grey">1.6 acres</p>
+          <p class="grey">9-15 Sept · Professional Host</p>
+          <p class="price"><strong>£10,291</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="treehouses" class="location treehouses">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/49ee362b-b47f-49fa-b8c0-18a41dbd4c4d.jpg?im_w=720" alt="A wooden treehouse and hanging spherical treehouse connected by a net.">
-                <h1 class="title">Rosoy-en-Multien, France</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">24-29 Mar</p>
-                <p class="price"><strong>£1,130</strong> total</p>
-            </figure>
-        </div>
+      <div id="treehouses" class="location treehouses">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/49ee362b-b47f-49fa-b8c0-18a41dbd4c4d.jpg?im_w=720"
+            alt="A wooden treehouse and hanging spherical treehouse connected by a net.">
+          <h1 class="title">Rosoy-en-Multien, France</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">24-29 Mar</p>
+          <p class="price"><strong>£1,130</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="mansions" class="location mansions">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-801441505297928765/original/bae09ce4-0a9b-41c8-8b03-4cf7ea1f7eae.jpeg?im_w=720" alt="A white mansion with blue skies and green grass.">
-                <h1 class="title">Greenstead Green, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">12-17 Dec</p>
-                <p class="price"><strong>£14,910</strong> total</p>
-            </figure>
-        </div>
+      <div id="mansions" class="location mansions">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-801441505297928765/original/bae09ce4-0a9b-41c8-8b03-4cf7ea1f7eae.jpeg?im_w=720"
+            alt="A white mansion with blue skies and green grass.">
+          <h1 class="title">Greenstead Green, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">12-17 Dec</p>
+          <p class="price"><strong>£14,910</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="luxe" class="location luxe">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-831741423443173223/original/e645468b-84e5-4cdc-9b8a-26cda79d8e8d.jpeg?im_w=720" alt="A luxury two storey cabin in the French hillside complete with hot tub and outdoor seating.">
-                <h1 class="title">Chamonix-Mont-Blanc, France</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">31 May - 5 Jun</p>
-                <p class="price"><strong>£8,074</strong> total</p>
-            </figure>
-        </div>
+      <div id="luxe" class="location luxe">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-831741423443173223/original/e645468b-84e5-4cdc-9b8a-26cda79d8e8d.jpeg?im_w=720"
+            alt="A luxury two storey cabin in the French hillside complete with hot tub and outdoor seating.">
+          <h1 class="title">Chamonix-Mont-Blanc, France</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">31 May - 5 Jun</p>
+          <p class="price"><strong>£8,074</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="omg" class="location omg">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/9da940a2-82d0-4efc-808e-381292ac5321.jpg?im_w=720" alt="A UFO shaped pod with path leading to entrance.">
-                <h1 class="title">Redberth, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">12-17 Dec</p>
-                <p class="price"><strong>£1,065</strong> total</p>
-            </figure>
-        </div>
+      <div id="omg" class="location omg">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/9da940a2-82d0-4efc-808e-381292ac5321.jpg?im_w=720"
+            alt="A UFO shaped pod with path leading to entrance.">
+          <h1 class="title">Redberth, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">12-17 Dec</p>
+          <p class="price"><strong>£1,065</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="cabins" class="location cabins">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/8a325d77-9297-4b56-a8d5-d7c1dcd81304.jpg?im_w=720" alt="A rustic cabin with outdoor seating and cooking facilities on a backdrop of trees.">
-                <h1 class="title">Northamptonshire, UK</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">4-9 Feb</p>
-                <p class="price"><strong>£589</strong> total</p>
-            </figure>
-        </div>
+      <div id="cabins" class="location cabins">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/8a325d77-9297-4b56-a8d5-d7c1dcd81304.jpg?im_w=720"
+            alt="A rustic cabin with outdoor seating and cooking facilities on a backdrop of trees.">
+          <h1 class="title">Northamptonshire, UK</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">4-9 Feb</p>
+          <p class="price"><strong>£589</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="windmills" class="location windmills">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/56dc461c-ba96-4fb6-b088-a3bc81bfb266.jpg?im_w=720" alt="A beautiful tower in the French countryside surrounded by trees and a sunset.">
-                <h1 class="title">Savennières, France</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">22-27 Dec</p>
-                <p class="price"><strong>£557</strong> total</p>
-            </figure>
-        </div>
+      <div id="windmills" class="location windmills">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/56dc461c-ba96-4fb6-b088-a3bc81bfb266.jpg?im_w=720"
+            alt="A beautiful tower in the French countryside surrounded by trees and a sunset.">
+          <h1 class="title">Savennières, France</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">22-27 Dec</p>
+          <p class="price"><strong>£557</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="containers" class="location containers">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-926721316666217929/original/2682f6a3-a310-4936-85ed-0ea0b7697f6d.jpeg?im_w=720" alt="A black shipping container in the middle of a green field.">
-                <h1 class="title">Froxfield, UK</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">5-10 Jan</p>
-                <p class="price"><strong>£615</strong> total</p>
-            </figure>
-        </div>
+      <div id="containers" class="location containers">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-926721316666217929/original/2682f6a3-a310-4936-85ed-0ea0b7697f6d.jpeg?im_w=720"
+            alt="A black shipping container in the middle of a green field.">
+          <h1 class="title">Froxfield, UK</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">5-10 Jan</p>
+          <p class="price"><strong>£615</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="tiny-homes" class="location tiny-homes">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-33646460/original/9ce19074-d960-4043-af31-f04c78bc8156.jpeg?im_w=720" alt="A wooden tiny home with two chairs on the tiny decking.">
-                <h1 class="title">East Meon, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">4-9 Feb</p>
-                <p class="price"><strong>£1,000</strong> total</p>
-            </figure>
-        </div>
+      <div id="tiny-homes" class="location tiny-homes">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-33646460/original/9ce19074-d960-4043-af31-f04c78bc8156.jpeg?im_w=720"
+            alt="A wooden tiny home with two chairs on the tiny decking.">
+          <h1 class="title">East Meon, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">4-9 Feb</p>
+          <p class="price"><strong>£1,000</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="amazing-pools" class="location amazing-pools">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/881329a7-1858-4eb2-8276-42aeb12cb5c7.jpg?im_w=720" alt="A luxury outdoor teal pool surrounded by trees and loungers.">
-                <h1 class="title">Ascot, UK</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">13-18</p>
-                <p class="price"><strong>£16,196</strong> total</p>
-            </figure>
-        </div>
+      <div id="amazing-pools" class="location amazing-pools">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/881329a7-1858-4eb2-8276-42aeb12cb5c7.jpg?im_w=720"
+            alt="A luxury outdoor teal pool surrounded by trees and loungers.">
+          <h1 class="title">Ascot, UK</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">13-18</p>
+          <p class="price"><strong>£16,196</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="arctic" class="location arctic">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-953591904139387888/original/e73afb5e-42d9-47e3-a792-91be6bf22d23.jpeg?im_w=720" alt="A dark wintry scene by a lake with a cabin glowing at the waters edge.">
-                <h1 class="title">Vestnes, Norway</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">1-6 Apr</p>
-                <p class="price"><strong>£681</strong> total</p>
-            </figure>
-        </div>
+      <div id="arctic" class="location arctic">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-953591904139387888/original/e73afb5e-42d9-47e3-a792-91be6bf22d23.jpeg?im_w=720"
+            alt="A dark wintry scene by a lake with a cabin glowing at the waters edge.">
+          <h1 class="title">Vestnes, Norway</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">1-6 Apr</p>
+          <p class="price"><strong>£681</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="beachfront" class="location beachfront">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-29589886/original/6250f7c4-0869-482e-b763-4f9d73046fb1.jpeg?im_w=720" alt="A large open door showing the sea filled with boats.">
-                <h1 class="title">Teignmouth, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">21-26 Oct</p>
-                <p class="price"><strong>£672</strong> total</p>
-            </figure>
-        </div>
+      <div id="beachfront" class="location beachfront">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-29589886/original/6250f7c4-0869-482e-b763-4f9d73046fb1.jpeg?im_w=720"
+            alt="A large open door showing the sea filled with boats.">
+          <h1 class="title">Teignmouth, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">21-26 Oct</p>
+          <p class="price"><strong>£672</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="countryside" class="location countryside">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/752888cb-7743-47fa-b2d9-c2e20f4e8e29.jpg?im_w=720" alt="A countryside home within a field of snowdrop flowers.">
-                <h1 class="title">Sutton Scotney, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">12-17 Dec</p>
-                <p class="price"><strong>£1,117</strong> total</p>
-            </figure>
-        </div>
+      <div id="countryside" class="location countryside">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/752888cb-7743-47fa-b2d9-c2e20f4e8e29.jpg?im_w=720"
+            alt="A countryside home within a field of snowdrop flowers.">
+          <h1 class="title">Sutton Scotney, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">12-17 Dec</p>
+          <p class="price"><strong>£1,117</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="lakefront" class="location lakefront">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-831804140248970621/original/399d2f83-1e73-4367-8d9a-a10c32466d36.jpeg?im_w=720" alt="Rattan furniture and a parasol on the deck of a lakefront house.">
-                <h1 class="title">Gloucestershire, UK</h1>
-                <p class="grey">Sailing Lake</p>
-                <p class="grey">12-17 Dec · Professional Host</p>
-                <p class="price"><strong>£8,750</strong> total</p>
-            </figure>
-        </div>
+      <div id="lakefront" class="location lakefront">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-831804140248970621/original/399d2f83-1e73-4367-8d9a-a10c32466d36.jpeg?im_w=720"
+            alt="Rattan furniture and a parasol on the deck of a lakefront house.">
+          <h1 class="title">Gloucestershire, UK</h1>
+          <p class="grey">Sailing Lake</p>
+          <p class="grey">12-17 Dec · Professional Host</p>
+          <p class="price"><strong>£8,750</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="yurts" class="location yurts">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/ccfc8d6b-01df-425e-969f-b39c058996c2.jpg?im_w=720" alt="A spherical yurt in the green countryside hills.">
-                <h1 class="title">Tylwch, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">30 Mar - 4 Apr</p>
-                <p class="price"><strong>£360</strong> total</p>
-            </figure>
-        </div>
+      <div id="yurts" class="location yurts">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/ccfc8d6b-01df-425e-969f-b39c058996c2.jpg?im_w=720"
+            alt="A spherical yurt in the green countryside hills.">
+          <h1 class="title">Tylwch, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">30 Mar - 4 Apr</p>
+          <p class="price"><strong>£360</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="creative-spaces" class="location creative-spaces">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/907dc7a1-ee66-44b5-90ac-15489adda484.jpg?im_w=720" alt="A wooden room with two large lights and a white screen backdrop.">
-                <h1 class="title">Wittstock/ Ortsteil Zempow, Germany</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">17-22 Dec</p>
-                <p class="price"><strong>£750</strong> total</p>
-            </figure>
-        </div>
+      <div id="creative-spaces" class="location creative-spaces">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/907dc7a1-ee66-44b5-90ac-15489adda484.jpg?im_w=720"
+            alt="A wooden room with two large lights and a white screen backdrop.">
+          <h1 class="title">Wittstock/ Ortsteil Zempow, Germany</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">17-22 Dec</p>
+          <p class="price"><strong>£750</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="lake" class="location lake">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/859b9dc5-8c41-4ad5-b4a6-6ee90d274982.jpg?im_w=720" alt="A wooden cabin and porch trimmed with fairylights.">
-                <h1 class="title">St.Neots, UK</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">28 Dec - 2 Jan</p>
-                <p class="price"><strong>£1,668</strong> total</p>
-            </figure>
-        </div>
+      <div id="lake" class="location lake">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/859b9dc5-8c41-4ad5-b4a6-6ee90d274982.jpg?im_w=720"
+            alt="A wooden cabin and porch trimmed with fairylights.">
+          <h1 class="title">St.Neots, UK</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">28 Dec - 2 Jan</p>
+          <p class="price"><strong>£1,668</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="trending" class="location trending">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/airflow/Hosting-34444025/original/274244de-652a-4e78-8ee4-1390375e6715.jpg?im_w=720" alt="A rectangular mirrored cabin in a Norwegian forest.">
-                <h1 class="title">Rælingen, Norway</h1>
-                <p class="grey">Viewed 7,799 times last week</p>
-                <p class="grey">25 Feb - 1 Mar · Professional Host</p>
-                <p class="price"><strong>£1,904</strong> total</p>
-            </figure>
-        </div>
+      <div id="trending" class="location trending">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/airflow/Hosting-34444025/original/274244de-652a-4e78-8ee4-1390375e6715.jpg?im_w=720"
+            alt="A rectangular mirrored cabin in a Norwegian forest.">
+          <h1 class="title">Rælingen, Norway</h1>
+          <p class="grey">Viewed 7,799 times last week</p>
+          <p class="grey">25 Feb - 1 Mar · Professional Host</p>
+          <p class="price"><strong>£1,904</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="skiing" class="location skiing">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/97df6bb0-c927-45ed-a4da-ebf75cd3a28f.jpg?im_w=720" alt="A wooden cabin surrounded by blue skies and snow.">
-                <h1 class="title">Ernen, Switzerland</h1>
-                <p class="grey">Near Bellwald Ski Resort</p>
-                <p class="grey">7-12 Jan · Individual Host</p>
-                <p class="price"><strong>£1,081</strong> total</p>
-            </figure>
-        </div>
+      <div id="skiing" class="location skiing">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/97df6bb0-c927-45ed-a4da-ebf75cd3a28f.jpg?im_w=720"
+            alt="A wooden cabin surrounded by blue skies and snow.">
+          <h1 class="title">Ernen, Switzerland</h1>
+          <p class="grey">Near Bellwald Ski Resort</p>
+          <p class="grey">7-12 Jan · Individual Host</p>
+          <p class="price"><strong>£1,081</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="top-of-the-world" class="location top-of-the-world">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-27451296/original/6bc4e7ab-62b4-424a-9c8a-2e56d2e0364b.jpeg?im_w=720" alt="Mountaintops in Ecuador hosting a small cabin.">
-                <h1 class="title">San Juan, Ecuador</h1>
-                <p class="grey">11,798 ft elevation</p>
-                <p class="grey">1-6 Jan · Professional Host</p>
-                <p class="price"><strong>£452</strong> total</p>
-            </figure>
-        </div>
+      <div id="top-of-the-world" class="location top-of-the-world">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-27451296/original/6bc4e7ab-62b4-424a-9c8a-2e56d2e0364b.jpeg?im_w=720"
+            alt="Mountaintops in Ecuador hosting a small cabin.">
+          <h1 class="title">San Juan, Ecuador</h1>
+          <p class="grey">11,798 ft elevation</p>
+          <p class="grey">1-6 Jan · Professional Host</p>
+          <p class="price"><strong>£452</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="national-parks" class="location national-parks">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/3939789c-6510-4320-9767-a1ce062f67cc.jpg?im_w=720" alt="Small wooden home on a gravel driveway.">
-                <h1 class="title">Highclere, UK</h1>
-                <p class="grey">37 miles to New Forest national park</p>
-                <p class="grey">6-11 Jan · Individual Host</p>
-                <p class="price"><strong>£690</strong> total</p>
-            </figure>
-        </div>
+      <div id="national-parks" class="location national-parks">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/3939789c-6510-4320-9767-a1ce062f67cc.jpg?im_w=720"
+            alt="Small wooden home on a gravel driveway.">
+          <h1 class="title">Highclere, UK</h1>
+          <p class="grey">37 miles to New Forest national park</p>
+          <p class="grey">6-11 Jan · Individual Host</p>
+          <p class="price"><strong>£690</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="design" class="location design">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/51205b8a-1d46-4361-97b5-cef65f637e7f.jpg?im_w=720" alt="A cottage with a grey home next door with green gardens.">
-                <h1 class="title">Woodmancote, UK</h1>
-                <p class="grey">Featured in House & Garden</p>
-                <p class="grey">5-10 Jan · Individual Host</p>
-                <p class="price"><strong>£883</strong> total</p>
-            </figure>
-        </div>
+      <div id="design" class="location design">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/51205b8a-1d46-4361-97b5-cef65f637e7f.jpg?im_w=720"
+            alt="A cottage with a grey home next door with green gardens.">
+          <h1 class="title">Woodmancote, UK</h1>
+          <p class="grey">Featured in House & Garden</p>
+          <p class="grey">5-10 Jan · Individual Host</p>
+          <p class="price"><strong>£883</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="beach" class="location beach">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/8017c2a0-3a15-44bf-97e4-1de96e52e15d.jpg?im_w=720" alt="Golden sandy beach with blue sea with a wooden balcony overlooking, sheltered by a parasol.">
-                <h1 class="title">Isle of Wight, UK</h1>
-                <p class="grey">On the beach</p>
-                <p class="grey">4-9 Jan · Professional Host</p>
-                <p class="price"><strong>£1,468</strong> total</p>
-            </figure>
-        </div>
+      <div id="beach" class="location beach">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/8017c2a0-3a15-44bf-97e4-1de96e52e15d.jpg?im_w=720"
+            alt="Golden sandy beach with blue sea with a wooden balcony overlooking, sheltered by a parasol.">
+          <h1 class="title">Isle of Wight, UK</h1>
+          <p class="grey">On the beach</p>
+          <p class="grey">4-9 Jan · Professional Host</p>
+          <p class="price"><strong>£1,468</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="surfing" class="location surfing">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-897629072088447490/original/36e50ec5-2a9e-4b1e-9637-12cb7a150a7a.jpeg?im_w=720" alt="A large manor on a green cliffside, above the clear blue sea.">
-                <h1 class="title">Torpoint, UK</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">22-29 Jan</p>
-                <p class="price"><strong>£918</strong> total</p>
-            </figure>
-        </div>
+      <div id="surfing" class="location surfing">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-897629072088447490/original/36e50ec5-2a9e-4b1e-9637-12cb7a150a7a.jpeg?im_w=720"
+            alt="A large manor on a green cliffside, above the clear blue sea.">
+          <h1 class="title">Torpoint, UK</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">22-29 Jan</p>
+          <p class="price"><strong>£918</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="iconic-cities" class="location iconic-cities">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-721540609203378406/original/9dfaf7d6-40f2-4673-b468-7c5ab3147f86.jpeg?im_w=720" alt="Bistro table and chairs on a glass balcony overlook Dubai skyscrapers.">
-                <h1 class="title">Dubai, UAE</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">20-25 Dec</p>
-                <p class="price"><strong>£837</strong> total</p>
-            </figure>
-        </div>
+      <div id="iconic-cities" class="location iconic-cities">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-721540609203378406/original/9dfaf7d6-40f2-4673-b468-7c5ab3147f86.jpeg?im_w=720"
+            alt="Bistro table and chairs on a glass balcony overlook Dubai skyscrapers.">
+          <h1 class="title">Dubai, UAE</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">20-25 Dec</p>
+          <p class="price"><strong>£837</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="farms" class="location farms">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/e38f0191-7f36-41e9-b253-e37fe684f5c5.jpg?im_w=720" alt="Wooden caravan with large bifold doors into bedroom.">
-                <h1 class="title">Mickleton, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">22-27 Dec</p>
-                <p class="price"><strong>£885</strong> total</p>
-            </figure>
-        </div>
+      <div id="farms" class="location farms">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/e38f0191-7f36-41e9-b253-e37fe684f5c5.jpg?im_w=720"
+            alt="Wooden caravan with large bifold doors into bedroom.">
+          <h1 class="title">Mickleton, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">22-27 Dec</p>
+          <p class="price"><strong>£885</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="vineyards" class="location vineyards">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/4e700515-e5d7-4c54-9582-6387115a2aa2.jpg?im_w=720" alt="Paving leads to a wooden caravan-style lodge with a mustard door.">
-                <h1 class="title">Medstead, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">14-19 Jan</p>
-                <p class="price"><strong>£898</strong> total</p>
-            </figure>
-        </div>
+      <div id="vineyards" class="location vineyards">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/4e700515-e5d7-4c54-9582-6387115a2aa2.jpg?im_w=720"
+            alt="Paving leads to a wooden caravan-style lodge with a mustard door.">
+          <h1 class="title">Medstead, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">14-19 Jan</p>
+          <p class="price"><strong>£898</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="rooms" class="location rooms">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-668146487515150072/original/8ff2a532-e0cd-41a2-9164-554c4d9eb28a.jpeg?im_w=720" alt="A light, modern living room with muted tones, wooden floors and pops of colour.">
-                <h1 class="title">Nantes, France</h1>
-                <p class="grey">Stay with Golwen</p>
-                <p class="grey">14-19 Dec · Individual Host</p>
-                <p class="price"><strong>£358</strong> total</p>
-            </figure>
-        </div>
+      <div id="rooms" class="location rooms">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-668146487515150072/original/8ff2a532-e0cd-41a2-9164-554c4d9eb28a.jpeg?im_w=720"
+            alt="A light, modern living room with muted tones, wooden floors and pops of colour.">
+          <h1 class="title">Nantes, France</h1>
+          <p class="grey">Stay with Golwen</p>
+          <p class="grey">14-19 Dec · Individual Host</p>
+          <p class="price"><strong>£358</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="a-frames" class="location a-frames">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/fae30069-fdce-46eb-954d-50a50a562e7e.jpg?im_w=720" alt="An A-frame situated in the french countryside.">
-                <h1 class="title">Vivy, France</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">17-22 Dec</p>
-                <p class="price"><strong>£523</strong> total</p>
-            </figure>
-        </div>
+      <div id="a-frames" class="location a-frames">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/fae30069-fdce-46eb-954d-50a50a562e7e.jpg?im_w=720"
+            alt="An A-frame situated in the french countryside.">
+          <h1 class="title">Vivy, France</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">17-22 Dec</p>
+          <p class="price"><strong>£523</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="camping" class="location camping">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-54156723/original/801006cf-5d87-4d09-a447-753775c9eb52.jpeg?im_w=720" alt="A structured orange tent on a green hillside.">
-                <h1 class="title">Holmfirth, UK</h1>
-                <p class="grey">Lake and valley views</p>
-                <p class="grey">5-10 Feb · Professional Host</p>
-                <p class="price"><strong>£1,071</strong> total</p>
-            </figure>
-        </div>
+      <div id="camping" class="location camping">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-54156723/original/801006cf-5d87-4d09-a447-753775c9eb52.jpeg?im_w=720"
+            alt="A structured orange tent on a green hillside.">
+          <h1 class="title">Holmfirth, UK</h1>
+          <p class="grey">Lake and valley views</p>
+          <p class="grey">5-10 Feb · Professional Host</p>
+          <p class="price"><strong>£1,071</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="tropical" class="location tropical">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720" alt="A tropical hut set in the Indonesian rainforest.">
-                <h1 class="title">Abiansemal, Indonesia</h1>
-                <p class="grey">Professional Host</p>
-                <p class="grey">21-26 Mar</p>
-                <p class="price"><strong>£1,987</strong> total</p>
-            </figure>
-        </div>
+      <div id="tropical" class="location tropical">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+            alt="A tropical hut set in the Indonesian rainforest.">
+          <h1 class="title">Abiansemal, Indonesia</h1>
+          <p class="grey">Professional Host</p>
+          <p class="grey">21-26 Mar</p>
+          <p class="price"><strong>£1,987</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="camper-vans" class="location camper-vans">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/f92f2cc9-377e-44d5-bc73-41b1eeba5e93.jpg?im_w=720" alt="A green double-decker bus with outdoor corner sofa on the decking.">
-                <h1 class="title">Buckinghamshire, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">12-17 Dec</p>
-                <p class="price"><strong>£596</strong> total</p>
-            </figure>
-        </div>
+      <div id="camper-vans" class="location camper-vans">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/f92f2cc9-377e-44d5-bc73-41b1eeba5e93.jpg?im_w=720"
+            alt="A green double-decker bus with outdoor corner sofa on the decking.">
+          <h1 class="title">Buckinghamshire, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">12-17 Dec</p>
+          <p class="price"><strong>£596</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="barns" class="location barns">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/f3c089fa-12e3-4bc6-992c-d8bc84dbaa91.jpg?im_w=720" alt="A brick barn on a gravel pathway, lavendar plant in the foreground.">
-                <h1 class="title">Hurstbourne Tarrant, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">7-12 Jan</p>
-                <p class="price"><strong>£616</strong> total</p>
-            </figure>
-        </div>
+      <div id="barns" class="location barns">
+        <figure class="photostack">
+          <img src="https://a0.muscache.com/im/pictures/f3c089fa-12e3-4bc6-992c-d8bc84dbaa91.jpg?im_w=720"
+            alt="A brick barn on a gravel pathway, lavendar plant in the foreground.">
+          <h1 class="title">Hurstbourne Tarrant, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">7-12 Jan</p>
+          <p class="price"><strong>£616</strong> total</p>
+        </figure>
+      </div>
 
-        <div id="historical-homes" class="location historical-homes">
-            <figure class="photostack">
-              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-639505592552017647/original/46c43037-1ea1-4111-b4b3-7bf0159d9ea0.jpeg?im_w=720" alt="Beautiful sandstone coloured home featuring plants and outdoor furniture.">
-                <h1 class="title">Painswick, UK</h1>
-                <p class="grey">Individual Host</p>
-                <p class="grey">22-27 Dec</p>
-                <p class="price"><strong>£2,816</strong> total</p>
-            </figure>
-        </div>
+      <div id="historical-homes" class="location historical-homes">
+        <figure class="photostack">
+          <img
+            src="https://a0.muscache.com/im/pictures/miso/Hosting-639505592552017647/original/46c43037-1ea1-4111-b4b3-7bf0159d9ea0.jpeg?im_w=720"
+            alt="Beautiful sandstone coloured home featuring plants and outdoor furniture.">
+          <h1 class="title">Painswick, UK</h1>
+          <p class="grey">Individual Host</p>
+          <p class="grey">22-27 Dec</p>
+          <p class="price"><strong>£2,816</strong> total</p>
+        </figure>
+      </div>
 
     </div>
-      <div class="continue">
-        <h2>Continue exploring caves</h2>
-        <button class="show-more">Show more</button>
-      </div>
-</div>
+    <div class="continue">
+      <h2>Continue exploring caves</h2>
+      <button class="show-more">Show more</button>
+    </div>
+  </div>
 
 
-<div class="inspiration">
+  <div class="inspiration">
     <h3 class="inspo-heading">Inspiration for future getaways</h3>
-      <div class="inspo-tabs">
-          <a href="#popular"><p class="inspo-tab">Popular</p></a>
-          <a href="#historic"><p class="inspo-tab">Historic</p></a>
-          <a href="#coastal"><p class="inspo-tab">Coastal</p></a>
-          <a href="#islands"><p class="inspo-tab">Islands</p></a>
-          <a href="#lakes"><p class="inspo-tab">Lakes</p></a>
-          <a href="#unique-stays"><p class="inspo-tab">Unique stays</p></a>
-          <a href="#categories"><p class="inspo-tab">Categories</p></a>
-          <a href="#things-to-do"><p class="inspo-tab">Things to do</p></a>
-      </div>
+    <div class="inspo-tabs">
+      <a>
+        <p class="inspo-tab">Popular</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Historic</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Coastal</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Islands</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Lakes</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Unique stays</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Categories</p>
+      </a>
+      <a>
+        <p class="inspo-tab">Things to do</p>
+      </a>
+    </div>
 
-      <div id="popular">
-        <ul>
-            <li><p>Aberfeldy</p><p class="grey">Holiday rentals</p></li>
-            <li><p>Amsterdam</p><p class="grey">Bungalow rentals</p></li>
-            <li><p>Athens</p><p class="grey">Rentals with pools</p></li>
-            <li><p>Aviemore</p><p class="grey">Chalet rentals</p></li>
-            <li><p>Bakewell</p><p class="grey">House rentals</p></li>
-            <li><p>Barcelona</p><p class="grey">Flat rentals</p></li>
-            <li><p>Bath</p><p class="grey">Cottage rentals</p></li>
-            <li><a>Show more ⌄</a></li>
-        </ul>
-      </div>
+    <div id="popular">
+      <ul id="popular-list">
+        <li>
+          <p>Aberfeldy</p>
+          <p class="grey">Holiday rentals</p>
+        </li>
+        <li>
+          <p>Amsterdam</p>
+          <p class="grey">Bungalow rentals</p>
+        </li>
+        <li>
+          <p>Athens</p>
+          <p class="grey">Rentals with pools</p>
+        </li>
+        <li>
+          <p>Aviemore</p>
+          <p class="grey">Chalet rentals</p>
+        </li>
+        <li>
+          <p>Bakewell</p>
+          <p class="grey">House rentals</p>
+        </li>
+        <li>
+          <p>Barcelona</p>
+          <p class="grey">Flat rentals</p>
+        </li>
+        <li>
+          <p>Bath</p>
+          <p class="grey">Cottage rentals</p>
+        </li>
+        <li><a>Show more ⌄</a></li>
+      </ul>
+    </div>
 
 
-  <footer>
+    <footer>
       <div class="support">
         <h4>Support</h>
           <ul>
-             <li>Help Centre</li>
-             <li>AirCover</li>
-             <li>Anti-discrimination</li>
-             <li>Disability support</li>
-             <li>Cancellation options</li>
-             <li>Report neighbourhood concern</li>
+            <li>Help Centre</li>
+            <li>AirCover</li>
+            <li>Anti-discrimination</li>
+            <li>Disability support</li>
+            <li>Cancellation options</li>
+            <li>Report neighbourhood concern</li>
           </ul>
       </div>
 
 
       <div class="hosting">
         <h4>Hosting</h4>
-          <ul>
-            <li>Airbnb your home</li>
-            <li>AirCover for Hosts</li>
-            <li>Hosting resources</li>
-            <li>Community forum</li>
-            <li>Hosting responsibility</li>
-          </ul>
+        <ul>
+          <li>Airbnb your home</li>
+          <li>AirCover for Hosts</li>
+          <li>Hosting resources</li>
+          <li>Community forum</li>
+          <li>Hosting responsibility</li>
+        </ul>
       </div>
 
 
       <div class="Airbnb">
         <h4>Airbnb</h4>
-          <ul>
-            <li>Newsroom</li>
-            <li>New features</li>
-            <li>Careers</li>
-            <li>Investors</li>
-            <li>Gift cards</li>
-            <li>Airbnb.org emergency stays</li>
-          </ul>
+        <ul>
+          <li>Newsroom</li>
+          <li>New features</li>
+          <li>Careers</li>
+          <li>Investors</li>
+          <li>Gift cards</li>
+          <li>Airbnb.org emergency stays</li>
+        </ul>
       </div>
 
 
@@ -537,15 +843,16 @@
         <a><img src=" " alt="Pound sign."><span>GBP</span></a>
 
       </div>
-    </div>
+  </div>
 
-    <div>
-      <p>© 2024 Airbnb, Inc.</p>
-      <p>Privacy · Terms · Sitemap · UK Modern Slavery Act  · Company details</p>
-    </div>
+  <div>
+    <p>© 2024 Airbnb, Inc.</p>
+    <p>Privacy · Terms · Sitemap · UK Modern Slavery Act · Company details</p>
+  </div>
 
   </footer>
-  
+
 
 </body>
+
 </html>
