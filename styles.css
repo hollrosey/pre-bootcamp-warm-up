@@ -241,10 +241,15 @@ div.inspiration a:active {
 }
 
 footer {
-    display: inline;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-icon {
-    color: #222222;
-    font-size: 14px;
+.footer-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
+    float: left;
 }
+
