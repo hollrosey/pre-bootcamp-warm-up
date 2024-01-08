@@ -1,7 +1,3 @@
-html {
-    max-width: 743px;
-}
-
 body {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     overflow-x: hidden;
@@ -56,7 +52,7 @@ svg {
 
 .main-search-button {
     padding: 0 4px;
-    margin: 30px;
+    margin: 15px 30px 15px 30px;
     background-color: #FFFFFF;
     border: 0.5px solid rgba(0 0 0/0.08);
     box-shadow: 0 3px 10px rgba(0 0 0/0.1);
@@ -124,6 +120,14 @@ div.filter-and-search {
     background-color: white;
 }
 
+.search-tabs p {
+    margin: 0px;
+}
+
+.search-tabs img {
+    margin-top: -20px;
+}
+
 div.search-tabs {
     overflow: auto;
     white-space: nowrap;
@@ -151,18 +155,20 @@ div.search-tabs a:active {
 
 .destinations {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
 }
 
 .location {
-    margin: 20px;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: 15px;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 325px;
+    height: 325px;
     object-fit: cover;
     overflow: hidden;
     border-radius: 10px;
