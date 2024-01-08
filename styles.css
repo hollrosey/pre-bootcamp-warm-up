@@ -58,7 +58,7 @@ svg {
     padding: 0 4px;
     margin: 30px;
     background-color: #FFFFFF;
-    border: none;
+    border: 0.5px solid rgba(0 0 0/0.08);
     box-shadow: 0 3px 10px rgba(0 0 0/0.1);
     cursor: pointer;
     border-radius: 30px;
