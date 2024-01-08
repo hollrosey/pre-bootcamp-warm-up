@@ -8,6 +8,43 @@ body {
     margin-top: 190px;
 }
 
+.bottom-navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 10px;
+}
+
+.bottom-navbar a {
+    display: inline-block;
+    color: #717171;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .bottom-navbar a:hover {
+    cursor: pointer;
+  }
+  
+  .bottom-navbar a.active {
+    color: #E81948;
+  }
+
+  .bottom-navbar a:visited {
+    color: #717171;
+}
+
+svg {
+    margin: auto;
+    padding-bottom: 3px;
+}
+
 .main-search-button {
     padding: 0 4px;
     margin: 30px;
@@ -196,37 +233,6 @@ div.inspiration a:active {
     border-radius: 10px;
     margin-bottom: 35px;
     cursor: pointer;
-}
-
-.bottom-navbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #FFFFFF;
-    color: #717171;
-    text-align: center;
-}
-
-.bottom-navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 0px 20px;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-.bottom-navbar a:visited {
-    color: #717171;
-}
-
-.bottom-navbar a:hover {
-    cursor: pointer;
-}
-
-.bottom-navbar a.active {
-    color: #E81948;
 }
 
 .popular li {
