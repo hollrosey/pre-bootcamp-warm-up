@@ -43,7 +43,7 @@ body {
 svg {
     margin: auto;
     padding-bottom: 3px;
-}
+} 
 
 .main-search-button {
     padding: 0 4px;
@@ -55,9 +55,8 @@ svg {
     border-radius: 30px;
     max-width: 644px;
     height: 55px;
-    width: 300px;
+    width: 644px;
 }
-
 
 .searching-button {
     text-align: left;
