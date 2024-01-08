@@ -198,6 +198,18 @@ svg.liked {
     display: block;
 }
 
+.star-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.star {
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -212,10 +224,10 @@ svg.liked {
 
 .title {
     color: #222222;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 450;
     margin-top: 12px;
-    margin-bottom: 5px;
+    margin-bottom: -35px;
 }
 
 .grey {
