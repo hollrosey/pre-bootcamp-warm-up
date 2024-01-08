@@ -245,11 +245,11 @@ footer {
     flex-direction: column;
 }
 
-.footer-grid {
+.footer-grid ul {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 1440px;
-    float: left;
+    justify-content:left;
+    align-items:flex-start;
+    text-align: left;
 }
 
