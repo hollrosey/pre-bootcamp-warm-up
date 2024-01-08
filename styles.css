@@ -100,7 +100,6 @@ svg {
     margin: auto;
 }
 
-
 ul {
     list-style: none;
     display: inline;
@@ -110,7 +109,7 @@ li {
     float: left;
 }
 
-div.search-section {
+div.filter-and-search {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
     width: 100%;
