@@ -138,7 +138,7 @@ li {
     margin-top: -20px;
 }
 
-section.search-tabs {
+.search-tabs {
     color: #717171;
     font-size: 12px;
     font-weight: 450;
@@ -146,7 +146,7 @@ section.search-tabs {
     white-space: nowrap;
 }
 
-section.search-tabs a {
+.search-tabs a {
     color: #717171;
     display: inline-block;
     padding: 14px;
@@ -154,11 +154,11 @@ section.search-tabs a {
     text-decoration: none;
 }
 
-section.search-tabs a:hover {
+.search-tabs a:hover {
     border-bottom: 2px solid #717171;
 }
 
-section.search-tabs a:active {
+.search-tabs a:active {
     border-bottom: 2px solid #000000;
     color: #000000;
 }
@@ -192,7 +192,7 @@ img {
 }
 
 /* This styles the like button on each card */
-svg.liked {
+.liked {
     border: none;
     display: block;
     fill: rgba(0, 0, 0, 0.5);
@@ -303,7 +303,7 @@ svg.liked {
     margin-left: -10px;
 }
 
-section.inspiration {
+.inspiration {
     font-size: 12px;
     overflow: auto;
     white-space: nowrap;
@@ -321,7 +321,7 @@ section.inspiration {
     cursor: pointer;
 }
 
-section.inspiration a {
+.inspiration a {
     display: inline-block;
     margin-top: -10px;
     padding: 10px;
@@ -329,11 +329,11 @@ section.inspiration a {
     text-decoration: none;
 }
 
-section.inspiration a:hover {
+.inspiration a:hover {
     cursor: pointer;
 }
 
-section.inspiration a:active {
+.inspiration a:active {
     border-bottom: 2px solid #000000;
     color: #000000;
 }
@@ -349,7 +349,7 @@ hr {
 }
 
 /* Used to create the two columned list of locations */
-ul.popular-list {
+.popular-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
