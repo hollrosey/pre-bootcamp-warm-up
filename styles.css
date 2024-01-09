@@ -348,3 +348,7 @@ ul.popular-list {
     text-align: left;
 }
 
+.arrow {
+    margin-right: -17px;
+    margin-top: -28px;
+}
