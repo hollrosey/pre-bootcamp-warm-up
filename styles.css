@@ -335,3 +335,16 @@ hr {
     margin: 0.5em auto 0.5em auto;
     border-width: 1px;
 }
+
+ul.popular-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    margin-left: -50px;
+}
+
+.popular-list-item p {
+    text-align: left;
+}
+
