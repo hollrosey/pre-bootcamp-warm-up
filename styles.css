@@ -6,7 +6,7 @@ html {
 
 .content {
     margin-top: 150px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     position: relative;
     z-index: -1;
 }
@@ -361,4 +361,48 @@ ul.popular-list {
 
 .margin-upper {
     margin-top: -10px;
+}
+
+footer {
+    background-color: #f7f7f7;
+}
+
+.footer-lists {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -50px;
+}
+
+.footer-header {
+    margin-left: auto;
+}
+
+.footer-lists li {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.footer-icons {
+    margin-top: 25px;
+}
+
+.globe {
+    width: 16px;
+    height: 16px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.currency {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.language {
+    margin-left: 15px;
+}
+
+.copyright {
+    font-weight: 300;
 }
