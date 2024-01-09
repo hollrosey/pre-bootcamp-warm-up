@@ -89,6 +89,7 @@ svg {
 
 .bold {
     font-size: 14px;
+    font-weight: 500;
 }
 
 .smaller {
@@ -348,7 +349,16 @@ ul.popular-list {
     text-align: left;
 }
 
+.rental {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
 .arrow {
     margin-right: -17px;
     margin-top: -28px;
+}
+
+.margin-upper {
+    margin-top: -10px;
 }
