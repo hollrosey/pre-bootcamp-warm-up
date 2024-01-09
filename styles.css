@@ -205,6 +205,12 @@ svg.liked {
     margin-top: 15px;
 }
 
+.star-rating-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
 .star {
     margin-top: 3px;
     margin-right: 4px;
