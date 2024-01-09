@@ -260,6 +260,22 @@ svg.liked {
     overflow: visible;
 }
 
+.continue {
+    text-align: center;
+    margin: 56px 0px 0px;
+    font-size: 18px;
+}
+
+.show-more {
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 14px 24px;
+    font: inherit;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
 
 .inspiration {
     background-color: #f7f7f7;
@@ -269,17 +285,29 @@ svg.liked {
 .inspo-heading {
     font-weight: 500;
     margin-top: 30px;
+    font-size: 22px;
+    margin: 0px 0px 8px,
 }
 
-footer {
-    background-color: #f7f7f7;
-    padding: 20px;
+.inspo-tabs {
+    margin-left: -10px;
 }
 
 div.inspiration {
     overflow: auto;
     white-space: nowrap;
     font-size: 12px;
+}
+
+.tab {
+    font-weight: 450;
+    font-size: 14px;
+    margin: 6px 6px 6px 0px;
+    color: #717171;
+}
+
+.tab a {
+    cursor: pointer;
 }
 
 div.inspiration a {
@@ -298,48 +326,3 @@ div.inspiration a:active {
     color: #000000;
 }
 
-.inspo-tab {
-    font-weight: 450;
-    font-size: 14px;
-    margin: 6px 6px 6px 0px;
-    color: #717171;
-}
-
-.inspo-tab a {
-    cursor: pointer;
-}
-
-.inspo-heading {
-    font-size: 22px;
-    margin: 0px 0px 8px,
-}
-
-.continue {
-    text-align: center;
-    margin: 56px 0px 0px;
-    font-size: 18px;
-}
-
-.show-more {
-    color: #FFFFFF;
-    background-color: #222222;
-    padding: 14px 24px;
-    font: inherit;
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 35px;
-    cursor: pointer;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-grid ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    text-align: left;
-}
