@@ -1,3 +1,4 @@
+/* Styling for the whole page */
 html {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     overflow-x: hidden;
@@ -15,6 +16,15 @@ a:hover {
     cursor: pointer;
 }
 
+.bold {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.smaller {
+    font-size: 12px;
+}
+/* This is for the bottom navbar */
 .bottom-navbar {
     background-color: #FFFFFF;
     overflow: hidden;
@@ -23,7 +33,7 @@ a:hover {
     width: 100%;
     display: inline-block;
     text-align: center;
-    padding: 10px 0px 10px;
+    padding: 10px 0 10px;
     z-index: 1;
     border: 1px solid rgba(0 0 0/0.08);
 }
@@ -41,7 +51,7 @@ a:hover {
     cursor: pointer;
 }
 
-.bottom-navbar a.active {
+.bottom-navbar .active {
     color: #E81948;
 }
 
@@ -54,6 +64,7 @@ svg {
     padding-bottom: 3px;
 }
 
+/* This is for the search button */
 .search-section {
     display: flex;
 }
@@ -87,15 +98,7 @@ svg {
     align-items: flex-start;
 }
 
-.bold {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.smaller {
-    font-size: 12px;
-}
-
+/* This is for the show filters button */
 .show-filters {
     background-color: #FFFFFF;
     border-radius: 50%;
@@ -112,6 +115,7 @@ svg {
     padding-top: 2px;
 }
 
+/* This is for the filter tabs in the search section */
 ul {
     list-style: none;
     display: inline;
@@ -121,17 +125,13 @@ li {
     float: left;
 }
 
-section.filter-and-search {
+.filter-and-search {
     box-shadow: rgb(0 0 0/16%) 0 0 6px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     background-color: white;
-}
-
-.search-tabs p {
-    margin: 0px;
 }
 
 .search-tabs img {
@@ -163,6 +163,7 @@ section.search-tabs a:active {
     color: #000000;
 }
 
+/* This is for the locations grid */
 .destinations {
     display: flex;
     justify-content: center;
@@ -191,6 +192,7 @@ img {
     cursor: pointer;
 }
 
+/* This styles the like button on each card */
 svg.liked {
     position: absolute;
     border: none;
@@ -205,6 +207,7 @@ svg.liked {
     display: block;
 }
 
+/* Styles the star ratings under the images */
 .star-rating {
     display: flex;
     flex-direction: row;
@@ -223,11 +226,12 @@ svg.liked {
     margin-right: 4px;
 }
 
+/* Removes the visible scrollbar */
 ::-webkit-scrollbar {
     display: none;
 }
 
-
+/* Styles the captions of each image */
 .price {
     text-decoration: underline;
     color: #222222;
@@ -243,30 +247,35 @@ svg.liked {
     margin-bottom: -35px;
 }
 
+/* The continue exploring button is styled here */
 .button-title {
     font-weight: 500;
     font-size: 1.125rem;
     margin-top: -20px;
 }
 
+/* This class is applied to any text required to be grey */
 .grey {
     color: #717171;
     margin: 5px;
-    margin-left: 0;
+    margin-left: 0%;
 }
 
+/* This styles the SVGs */
 .icon {
     width: 24px;
     height: 24px;
     overflow: visible;
 }
 
+/* Styles the continue exploring title */
 .continue {
     text-align: center;
-    margin: 56px 0px 0px;
+    margin: 56px 0 0;
     font-size: 18px;
 }
 
+/* This is the actual button style */
 .show-more {
     color: #FFFFFF;
     background-color: #222222;
@@ -278,6 +287,7 @@ svg.liked {
     cursor: pointer;
 }
 
+/* Styles the first section after the locations */
 .inspiration {
     background-color: #f7f7f7;
     padding: 20px;
@@ -287,7 +297,7 @@ svg.liked {
     font-weight: 500;
     margin-top: 30px;
     font-size: 22px;
-    margin: 0px 0px 8px;
+    margin: 0 0 8px;
 }
 
 .inspo-tabs {
@@ -300,10 +310,11 @@ section.inspiration {
     font-size: 12px;
 }
 
+/* Styles the tabs under the title */
 .tab {
     font-weight: 450;
     font-size: 14px;
-    margin: 6px 6px 6px 0px;
+    margin: 6px 6px 6px 0;
     color: #717171;
 }
 
@@ -328,6 +339,7 @@ section.inspiration a:active {
     color: #000000;
 }
 
+/* A divider between different sections of the footer section */
 hr {
     display: block;
     height: 1px;
@@ -337,6 +349,7 @@ hr {
     border-width: 1px;
 }
 
+/* Used to create the two columned list of locations */
 ul.popular-list {
     display: flex;
     flex-direction: column;
@@ -354,15 +367,18 @@ ul.popular-list {
     margin-top: -10px;
 }
 
+/* Styles the arrow SVG */
 .arrow {
     margin-right: -17px;
     margin-top: -28px;
 }
 
+/* Moves the hr closer to text */
 .margin-upper {
     margin-top: -10px;
 }
 
+/* Support, Hosting and Airbnb are styled here */
 footer {
     background-color: #f7f7f7;
 }
@@ -382,7 +398,7 @@ footer {
     margin-bottom: 10px;
     font-weight: 300;
 }
-
+/* Styles the language and currency section */
 .footer-icons {
     margin-top: 25px;
 }
@@ -403,6 +419,7 @@ footer {
     margin-left: 15px;
 }
 
+/* Makes the copyright lighter */
 .copyright {
     font-weight: 300;
 }
