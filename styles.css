@@ -315,6 +315,7 @@ div.inspiration a {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    margin-top: -10px;
 }
 
 div.inspiration a:hover {
@@ -326,3 +327,11 @@ div.inspiration a:active {
     color: #000000;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #DDDDDD;
+    margin: 0.5em auto 0.5em auto;
+    border-width: 1px;
+}
