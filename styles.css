@@ -1,13 +1,13 @@
 /* Styling for the whole page */
 html {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-    overflow-x: hidden;
     margin: auto;
+    overflow-x: hidden;
 }
 
 .content {
-    margin-top: 150px;
     margin-bottom: 40px;
+    margin-top: 170px;
     position: relative;
     z-index: -1;
 }
@@ -27,24 +27,24 @@ a:hover {
 /* This is for the bottom navbar */
 .bottom-navbar {
     background-color: #FFFFFF;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    padding: 10px 0 10px;
-    z-index: 1;
     border: 1px solid rgba(0 0 0/0.08);
+    bottom: 0;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 0 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
 }
 
 .bottom-navbar a {
-    display: inline-block;
     color: #717171;
-    text-align: center;
-    padding: 2.5px 35px;
-    text-decoration: none;
+    display: inline-block;
     font-size: 10px;
+    padding: 2.5px 35px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .bottom-navbar a:hover {
@@ -70,19 +70,19 @@ svg {
 }
 
 .main-search-button {
-    padding: 0 4px;
-    margin: 15px 30px 15px 22px;
+    align-items: center;
     background-color: #FFFFFF;
     border: 0.5px solid rgba(0 0 0/0.08);
+    border-radius: 30px;
     box-shadow: 0 3px 10px rgba(0 0 0/0.1);
     cursor: pointer;
-    border-radius: 30px;
-    max-width: 644px;
-    height: 55px;
-    width: 644px;
-    font-weight: 500;
     display: flex;
-    align-items: center;
+    font-weight: 500;
+    height: 55px;
+    margin: 15px 30px 15px 22px;
+    max-width: 644px;
+    padding: 0 4px;
+    width: 644px;
 }
 
 .searching-icon {
@@ -91,23 +91,23 @@ svg {
 }
 
 .button-text {
-    padding-left: 18px;
-    padding-top: 5px;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-left: 18px;
+    padding-top: 5px;
 }
 
 /* This is for the show filters button */
 .show-filters {
     background-color: #FFFFFF;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
     border: 1px solid #B0B0B0;
+    border-radius: 50%;
     cursor: pointer;
-    margin-top: 23px;
+    height: 40px;
     margin-left: -20px;
+    margin-top: 23px;
+    width: 40px;
 }
 
 .show-filters svg {
@@ -117,8 +117,8 @@ svg {
 
 /* This is for the filter tabs in the search section */
 ul {
-    list-style: none;
     display: inline;
+    list-style: none;
 }
 
 li {
@@ -126,12 +126,12 @@ li {
 }
 
 .filter-and-search {
-    box-shadow: rgb(0 0 0/16%) 0 0 6px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
     background-color: white;
+    box-shadow: rgb(0 0 0/16%) 0 0 6px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .search-tabs img {
@@ -139,19 +139,19 @@ li {
 }
 
 section.search-tabs {
-    overflow: auto;
-    white-space: nowrap;
     color: #717171;
     font-size: 12px;
     font-weight: 450;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 section.search-tabs a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
     color: #717171;
+    display: inline-block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
 }
 
 section.search-tabs a:hover {
@@ -166,16 +166,15 @@ section.search-tabs a:active {
 /* This is for the locations grid */
 .destinations {
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
     flex-flow: row wrap;
     gap: 10px;
+    justify-content: space-evenly;
 }
 
 .location {
+    margin-bottom: 5px;
     margin-left: -45px;
     margin-right: -45px;
-    margin-bottom: 5px;
     position: relative;
 }
 
@@ -184,27 +183,27 @@ section.search-tabs a:active {
 }
 
 img {
-    width: 325px;
+    border-radius: 10px;
+    cursor: pointer;
     height: 325px;
     object-fit: cover;
     overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
+    width: 325px;
 }
 
 /* This styles the like button on each card */
 svg.liked {
-    position: absolute;
     border: none;
-    top: 30px;
+    display: block;
+    fill: rgba(0, 0, 0, 0.5);
+    height: 24px;
+    overflow: visible;
+    position: absolute;
     right: 55px;
     stroke: #FFFFFF;
     stroke-width: 2;
-    overflow: visible;
+    top: 30px;
     width: 24px;
-    height: 24px;
-    fill: rgba(0, 0, 0, 0.5);
-    display: block;
 }
 
 /* Styles the star ratings under the images */
@@ -222,8 +221,8 @@ svg.liked {
 }
 
 .star {
-    margin-top: 3px;
     margin-right: 4px;
+    margin-top: 3px;
 }
 
 /* Removes the visible scrollbar */
@@ -233,24 +232,24 @@ svg.liked {
 
 /* Styles the captions of each image */
 .price {
-    text-decoration: underline;
     color: #222222;
     font-size: 15px;
     margin-top: 10px;
+    text-decoration: underline;
 }
 
 .title {
     color: #222222;
     font-size: 16px;
     font-weight: 450;
-    margin-top: 12px;
     margin-bottom: -35px;
+    margin-top: 12px;
 }
 
 /* The continue exploring button is styled here */
 .button-title {
-    font-weight: 500;
     font-size: 1.125rem;
+    font-weight: 500;
     margin-top: -20px;
 }
 
@@ -263,28 +262,28 @@ svg.liked {
 
 /* This styles the SVGs */
 .icon {
-    width: 24px;
     height: 24px;
     overflow: visible;
+    width: 24px;
 }
 
 /* Styles the continue exploring title */
 .continue {
-    text-align: center;
-    margin: 56px 0 0;
     font-size: 18px;
+    margin: 56px 0 0;
+    text-align: center;
 }
 
 /* This is the actual button style */
 .show-more {
-    color: #FFFFFF;
     background-color: #222222;
-    padding: 14px 24px;
-    font: inherit;
     border: none;
     border-radius: 10px;
-    margin-bottom: 35px;
+    color: #FFFFFF;
     cursor: pointer;
+    font: inherit;
+    margin-bottom: 35px;
+    padding: 14px 24px;
 }
 
 /* Styles the first section after the locations */
@@ -294,10 +293,10 @@ svg.liked {
 }
 
 .inspo-heading {
-    font-weight: 500;
-    margin-top: 30px;
     font-size: 22px;
+    font-weight: 500;
     margin: 0 0 8px;
+    margin-top: 30px;
 }
 
 .inspo-tabs {
@@ -305,17 +304,17 @@ svg.liked {
 }
 
 section.inspiration {
+    font-size: 12px;
     overflow: auto;
     white-space: nowrap;
-    font-size: 12px;
 }
 
 /* Styles the tabs under the title */
 .tab {
-    font-weight: 450;
-    font-size: 14px;
-    margin: 6px 6px 6px 0;
     color: #717171;
+    font-size: 14px;
+    font-weight: 450;
+    margin: 6px 6px 6px 0;
 }
 
 .tab a {
@@ -324,10 +323,10 @@ section.inspiration {
 
 section.inspiration a {
     display: inline-block;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
     margin-top: -10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 section.inspiration a:hover {
@@ -341,12 +340,12 @@ section.inspiration a:active {
 
 /* A divider between different sections of the footer section */
 hr {
-    display: block;
-    height: 1px;
     border: 0;
     border-top: 3px solid #DDDDDD;
-    margin: 0.5em auto 0.5em auto;
     border-width: 1px;
+    display: block;
+    height: 1px;
+    margin: 0.5em auto 0.5em auto;
 }
 
 /* Used to create the two columned list of locations */
@@ -386,8 +385,8 @@ footer {
 .footer-lists {
     display: flex;
     flex-direction: column;
-    text-align: left;
     margin-left: -50px;
+    text-align: left;
 }
 
 .footer-header {
@@ -395,8 +394,8 @@ footer {
 }
 
 .footer-lists li {
-    margin-bottom: 10px;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 /* Styles the language and currency section */
 .footer-icons {
@@ -404,10 +403,10 @@ footer {
 }
 
 .globe {
-    width: 16px;
-    height: 16px;
-    margin-left: -10px;
     margin-bottom: -20px;
+    margin-left: -10px;
+    height: 16px;
+    width: 16px;
 }
 
 .currency {
