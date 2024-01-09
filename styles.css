@@ -35,24 +35,24 @@ a:hover {
     padding: 2.5px 35px;
     text-decoration: none;
     font-size: 10px;
-  }
-  
-  .bottom-navbar a:hover {
-    cursor: pointer;
-  }
-  
-  .bottom-navbar a.active {
-    color: #E81948;
-  }
+}
 
-  .bottom-navbar a:visited {
+.bottom-navbar a:hover {
+    cursor: pointer;
+}
+
+.bottom-navbar a.active {
+    color: #E81948;
+}
+
+.bottom-navbar a:visited {
     color: #717171;
 }
 
 svg {
     margin: auto;
     padding-bottom: 3px;
-} 
+}
 
 .search-section {
     display: flex;
@@ -264,7 +264,6 @@ svg.liked {
 .inspiration {
     background-color: #f7f7f7;
     padding: 20px;
-
 }
 
 .inspo-heading {
@@ -306,6 +305,10 @@ div.inspiration a:active {
     color: #717171;
 }
 
+.inspo-tab a {
+    cursor: pointer;
+}
+
 .inspo-heading {
     font-size: 22px;
     margin: 0px 0px 8px,
@@ -328,17 +331,6 @@ div.inspiration a:active {
     cursor: pointer;
 }
 
-.popular li {
-    float: left;
-    width: 50%;
-}
-
-.popular {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -347,8 +339,7 @@ footer {
 .footer-grid ul {
     display: flex;
     flex-direction: column;
-    justify-content:left;
-    align-items:flex-start;
+    justify-content: left;
+    align-items: flex-start;
     text-align: left;
 }
-
