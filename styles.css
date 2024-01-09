@@ -25,13 +25,14 @@ a:hover {
     text-align: center;
     padding: 10px 0px 10px;
     z-index: 1;
+    border: 1px solid rgba(0 0 0/0.08);
 }
 
 .bottom-navbar a {
     display: inline-block;
     color: #717171;
     text-align: center;
-    padding: 0px 20px;
+    padding: 2.5px 35px;
     text-decoration: none;
     font-size: 10px;
   }
