@@ -221,8 +221,12 @@ img {
 }
 
 .star {
+    display: block;
+    fill: #222222;
+    height: 12px;
     margin-right: 4px;
     margin-top: 3px;
+    width: 12px;
 }
 
 /* Removes the visible scrollbar */
