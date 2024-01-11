@@ -266,35 +266,45 @@ img {
 
 /* This styles the SVGs */
 .icon {
+    display: block;
     height: 24px;
+    overflow: visible;
     width: 24px;
 }
 
 .navsvg {
+    display: block;
     fill: none;
     height: 24px;
+    overflow: visible;
     stroke: currentcolor;
     stroke-width: 2;
     width: 24px;
  }
 
  .explore-navsvg {
+    display: block;
     fill: none;
     height: 24px;
+    overflow: visible;
     stroke: currentcolor;
     stroke-width: 2.66667;
     width: 24px;
  }
 
  .magnifying-glass {
+    display: block;
     fill: currentcolor;
     height: 20px;
+    overflow: visible;
     width: 20px;
  }
 
  .filterbtn {
+    display: block;
     fill: none;
     height: 16px;
+    overflow: visible;
     stroke: currentcolor;
     stroke-width: 4;
     width: 16px;
@@ -401,8 +411,15 @@ hr {
 
 /* Styles the arrow SVG */
 .arrow {
+    display: block;
+    fill: none;
+    height: 12px;
     margin-right: -17px;
     margin-top: -28px;
+    overflow: visible;
+    stroke: currentcolor;
+    stroke-width: 5.33333;
+    width: 12px;
 }
 
 /* Moves the hr closer to text */
@@ -437,6 +454,8 @@ footer {
 }
 
 .globe {
+    display: block;
+    fill: currentcolor;
     margin-bottom: -20px;
     margin-left: -10px;
     height: 16px;
