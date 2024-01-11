@@ -24,6 +24,7 @@ a:hover {
 .smaller {
     font-size: 1.25em;
 }
+
 /* This is for the bottom navbar */
 .bottom-navbar {
     background-color: #FFFFFF;
@@ -239,11 +240,12 @@ img {
     font-size: 0.9375em;
     margin-top: 10px;
     text-decoration: underline;
+
 }
 
 .title {
     color: #222222;
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 450;
     margin-bottom: -35px;
     margin-top: 12px;
@@ -279,9 +281,9 @@ img {
     stroke: currentcolor;
     stroke-width: 2;
     width: 24px;
- }
+}
 
- .explore-navsvg {
+.explore-navsvg {
     display: block;
     fill: none;
     height: 24px;
@@ -289,17 +291,17 @@ img {
     stroke: currentcolor;
     stroke-width: 2.66667;
     width: 24px;
- }
+}
 
- .magnifying-glass {
+.magnifying-glass {
     display: block;
     fill: currentcolor;
     height: 20px;
     overflow: visible;
     width: 20px;
- }
+}
 
- .filterbtn {
+.filterbtn {
     display: block;
     fill: none;
     height: 16px;
@@ -307,7 +309,7 @@ img {
     stroke: currentcolor;
     stroke-width: 4;
     width: 16px;
- }
+}
 
 /* Styles the continue exploring title */
 .continue {
@@ -447,6 +449,7 @@ footer {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
 /* Styles the language and currency section */
 .footer-icons {
     margin-top: 25px;
