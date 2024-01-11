@@ -17,12 +17,12 @@ a:hover {
 }
 
 .bold {
-    font-size: 14px;
+    font-size: 1.25em;
     font-weight: 500;
 }
 
 .smaller {
-    font-size: 12px;
+    font-size: 1.25em;
 }
 /* This is for the bottom navbar */
 .bottom-navbar {
@@ -41,7 +41,7 @@ a:hover {
 .bottom-navbar a {
     color: #717171;
     display: inline-block;
-    font-size: 10px;
+    font-size: 0.625em;
     padding: 2.5px 35px;
     text-align: center;
     text-decoration: none;
@@ -140,7 +140,7 @@ li {
 
 .search-tabs {
     color: #717171;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 450;
     overflow: auto;
     white-space: nowrap;
@@ -233,14 +233,14 @@ img {
 /* Styles the captions of each image */
 .price {
     color: #222222;
-    font-size: 15px;
+    font-size: 0.9375em;
     margin-top: 10px;
     text-decoration: underline;
 }
 
 .title {
     color: #222222;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 450;
     margin-bottom: -35px;
     margin-top: 12px;
@@ -256,8 +256,9 @@ img {
 /* This class is applied to any text required to be grey */
 .grey {
     color: #717171;
+    font-size: 0.875em;
     margin: 5px;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 /* This styles the SVGs */
@@ -269,7 +270,7 @@ img {
 
 /* Styles the continue exploring title */
 .continue {
-    font-size: 18px;
+    font-size: 1.5em;
     margin: 56px 0 0;
     text-align: center;
 }
@@ -293,7 +294,7 @@ img {
 }
 
 .inspo-heading {
-    font-size: 22px;
+    font-size: 1.75em;
     font-weight: 500;
     margin: 0 0 8px;
     margin-top: 30px;
@@ -304,7 +305,7 @@ img {
 }
 
 .inspiration {
-    font-size: 12px;
+    font-size: 0.75em;
     overflow: auto;
     white-space: nowrap;
 }
@@ -312,7 +313,7 @@ img {
 /* Styles the tabs under the title */
 .tab {
     color: #717171;
-    font-size: 14px;
+    font-size: 1.125em;
     font-weight: 450;
     margin: 6px 6px 6px 0;
 }
@@ -362,7 +363,7 @@ hr {
 }
 
 .rental {
-    font-size: 14px;
+    font-size: 1.125em;
     margin-top: -10px;
 }
 
@@ -385,6 +386,7 @@ footer {
 .footer-lists {
     display: flex;
     flex-direction: column;
+    font-size: 1.125em;
     margin-left: -50px;
     text-align: left;
 }
@@ -410,7 +412,7 @@ footer {
 }
 
 .currency {
-    font-size: 16px;
+    font-size: 1em;
     margin-right: 5px;
 }
 
