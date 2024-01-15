@@ -138,13 +138,15 @@ li {
 }
 
 .search-tabs img {
-    margin-top: -20px;
+    margin-top: -10px;
+    margin-bottom: -5px;
 }
 
 .search-tabs {
     color: #717171;
     font-size: 0.75em;
     font-weight: 450;
+    margin-bottom: -10px;
     overflow: auto;
     white-space: nowrap;
 }
