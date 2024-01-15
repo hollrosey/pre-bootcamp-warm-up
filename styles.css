@@ -159,6 +159,7 @@ li {
 
 .search-tabs a:hover {
     border-bottom: 2px solid #717171;
+    cursor: pointer;
 }
 
 .search-tabs a:active {
