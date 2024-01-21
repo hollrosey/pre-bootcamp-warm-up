@@ -6,7 +6,6 @@ html {
 }
 
 .content {
-    margin-bottom: 35px;
     margin-top: 150px;
     position: relative;
     z-index: -1;
@@ -439,6 +438,7 @@ footer {
     background-color: #f7f7f7;
 }
 
+
 .footer-lists {
     display: flex;
     flex-direction: column;
@@ -482,6 +482,7 @@ footer {
 /* Makes the copyright lighter */
 .copyright {
     font-weight: 300;
+    margin-bottom: 40px;
 }
 
 strong {
