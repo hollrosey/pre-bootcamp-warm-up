@@ -240,7 +240,8 @@ img {
 /* Styles the captions of each image */
 .price {
     color: #222222;
-    font-size: 0.9375em;
+    font-size: 1em;
+    font-weight: 300;
     margin-top: 10px;
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -480,4 +481,8 @@ footer {
 /* Makes the copyright lighter */
 .copyright {
     font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
 }
