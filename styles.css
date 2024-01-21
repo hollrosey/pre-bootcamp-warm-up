@@ -320,7 +320,7 @@ img {
 /* Styles the continue exploring title */
 .continue {
     font-size: 1.5em;
-    margin: 56px 0 0;
+    margin: 45px 0 0 0;
     text-align: center;
 }
 
@@ -331,7 +331,7 @@ img {
     border-radius: 10px;
     color: #FFFFFF;
     cursor: pointer;
-    font: inherit;
+    font-size: 0.7em;
     margin-bottom: 35px;
     padding: 14px 24px;
 }
@@ -346,7 +346,7 @@ img {
     font-size: 1.75em;
     font-weight: 500;
     margin: 0 0 8px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .inspo-tabs {
