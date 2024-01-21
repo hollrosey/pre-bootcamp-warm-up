@@ -6,8 +6,8 @@ html {
 }
 
 .content {
-    margin-bottom: 30px;
-    margin-top: 170px;
+    margin-bottom: 35px;
+    margin-top: 160px;
     position: relative;
     z-index: -1;
 }
@@ -82,7 +82,7 @@ svg {
     display: flex;
     font-weight: 500;
     height: 55px;
-    margin: 15px 30px 15px 22px;
+    margin: 15px 30px 20px 22px;
     max-width: 644px;
     padding: 0 4px;
     width: 644px;
@@ -153,7 +153,8 @@ li {
 .search-tabs a {
     color: #717171;
     display: inline-block;
-    padding: 14px;
+    margin: 0 10px;
+    padding: 0 5px 0 5px;
     text-align: center;
     text-decoration: none;
 }
