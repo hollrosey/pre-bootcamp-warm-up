@@ -6,7 +6,7 @@ html {
 }
 
 .content {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 170px;
     position: relative;
     z-index: -1;
@@ -138,15 +138,14 @@ li {
 }
 
 .search-tabs img {
-    margin-top: -10px;
-    margin-bottom: -5px;
+    margin-top: -15px;
+    margin-bottom: -12px;
 }
 
 .search-tabs {
     color: #717171;
     font-size: 0.75em;
     font-weight: 450;
-    margin-bottom: -10px;
     overflow: auto;
     white-space: nowrap;
 }
@@ -160,8 +159,9 @@ li {
 }
 
 .search-tabs a:hover {
-    border-bottom: 2px solid #717171;
+    border-bottom: 2px solid #B0B0B0;
     cursor: pointer;
+    color: #222222;
 }
 
 .search-tabs a:active {
@@ -243,6 +243,7 @@ img {
     font-size: 0.9375em;
     margin-top: 10px;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
 
 }
 
