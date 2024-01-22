@@ -2,6 +2,7 @@
 html {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     margin: auto;
+    max-width: 743px;
     overflow-x: hidden;
 }
 
@@ -29,16 +30,16 @@ a:hover {
     background-color: #FFFFFF;
     border: 1px solid rgba(0 0 0/0.08);
     bottom: 0;
-    display: inline-block;
+    display: block;
     overflow: hidden;
     padding: 10px 0 10px;
     position: fixed;
     text-align: center;
     width: 100%;
-    z-index: 1;
 }
 
 .bottom-navbar a {
+    background-color: #FFFFFF;
     color: #717171;
     display: inline-block;
     font-size: 0.625em;
