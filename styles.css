@@ -170,6 +170,7 @@ li {
 
 /* This is for the locations grid */
 .destinations {
+    background-color: #FFFFFE;
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
@@ -330,6 +331,7 @@ img {
 
 /* Styles the continue exploring title */
 .continue {
+    background-color: #FFFFFE;
     font-size: 1.5em;
     margin: 45px 0 0 0;
     text-align: center;
