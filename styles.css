@@ -513,3 +513,7 @@ footer {
 strong {
     font-weight: 500;
 }
+
+.important-info {
+    margin-left: -10px;
+}
