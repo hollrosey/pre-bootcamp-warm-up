@@ -2,7 +2,6 @@
 html {
     font-family: 'Circular', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     margin: auto;
-    max-width: 743px;
     overflow-x: hidden;
 }
 
@@ -209,6 +208,19 @@ img {
     stroke-width: 2;
     top: 30px;
     width: 24px;
+}
+
+/* This styles the guest favourite banner on some locations */
+.guest-favourite {
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    bottom: 403px;
+    box-shadow: 0 3px 10px rgba(0 0 0/0.3);
+    font-size: 0.875em;
+    font-weight: 500;
+    left: 55px;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
 }
 
 /* Styles the star ratings under the images */
