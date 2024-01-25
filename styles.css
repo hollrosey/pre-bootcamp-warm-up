@@ -8,7 +8,6 @@ html {
 .content {
     margin-top: 150px;
     position: relative;
-    z-index: -1;
 }
 
 a:hover {
@@ -423,6 +422,10 @@ hr {
     text-align: left;
 }
 
+.popular-list a:active {
+    border: none;
+}
+
 .rental {
     font-size: 1.125em;
     margin-top: -10px;
@@ -451,6 +454,14 @@ footer {
     background-color: #f7f7f7;
 }
 
+.footer-grid a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.footer-grid a:active {
+    border: none;
+}
 
 .footer-lists {
     display: flex;
