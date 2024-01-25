@@ -8,6 +8,7 @@ html {
 .content {
     margin-top: 150px;
     position: relative;
+    z-index: -1;
 }
 
 a:hover {
