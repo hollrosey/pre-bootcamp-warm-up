@@ -8,7 +8,6 @@ html {
 .content {
     margin-top: 150px;
     position: relative;
-    z-index: -1;
 }
 
 a:hover {
@@ -496,18 +495,19 @@ footer {
 }
 
 .currency {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-right: 5px;
 }
 
 .language {
+    font-size: 1.2em;
     margin-left: 15px;
 }
 
 /* Makes the copyright lighter */
 .copyright {
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 strong {
