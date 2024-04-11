@@ -1,4 +1,4 @@
-### Airbnb Homepage Replica Project
+# Airbnb Homepage Replica Project
 Welcome to my Airbnb Homepage Replica project! This task was assigned to me as a pre-bootcamp warm-up exercise by School of Code, aimed at honing my HTML, CSS, command line, and Git skills. 
 
 ## Objective 
